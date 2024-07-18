@@ -1,0 +1,707 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "FarmersSunflower",
+    "blockstateList": [
+      {
+        "texture": "farmers_sunflower_stage1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage1_sunrise:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 6.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 10.0,
+            "My": 15.4,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 15.5,
+            "mz": 3.5,
+            "Mx": 12.5,
+            "My": 16.5,
+            "Mz": 12.5,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage1_default:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 6.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 10.0,
+            "My": 15.4,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.5,
+            "my": 15.5,
+            "mz": 3.5,
+            "Mx": 12.5,
+            "My": 16.5,
+            "Mz": 12.5,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage1",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage1_sunset:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 6.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 10.0,
+            "My": 15.4,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 15.5,
+            "mz": 3.5,
+            "Mx": 12.5,
+            "My": 16.5,
+            "Mz": 12.5,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_begin_sunrise:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 18.0,
+            "mz": 7.9,
+            "Mx": 9.0,
+            "My": 21.0,
+            "Mz": 8.1,
+            "subtract": false
+          },
+          {
+            "mx": 7.9,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 8.1,
+            "My": 21.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 20.15,
+            "mz": 5.0,
+            "Mx": 13.0,
+            "My": 20.35,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.9,
+            "my": 22.0,
+            "mz": 2.0,
+            "Mx": 8.1,
+            "My": 26.0,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.75,
+            "my": 18.15,
+            "mz": 3.0,
+            "Mx": 14.75,
+            "My": 18.35,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 20.15,
+            "mz": 11.0,
+            "Mx": 15.0,
+            "My": 20.35,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 20.15,
+            "mz": 2.0,
+            "Mx": 15.0,
+            "My": 20.35,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_ending_sunrise:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 18.0,
+            "mz": 7.9,
+            "Mx": 9.0,
+            "My": 21.0,
+            "Mz": 8.1,
+            "subtract": false
+          },
+          {
+            "mx": 7.9,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 8.1,
+            "My": 21.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 6.25,
+            "my": 20.65,
+            "mz": 5.0,
+            "Mx": 12.25,
+            "My": 20.85,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 21.9,
+            "mz": 2.0,
+            "Mx": 6.0,
+            "My": 22.1,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 12.0,
+            "my": 19.4,
+            "mz": 3.0,
+            "Mx": 15.0,
+            "My": 19.6,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.25,
+            "my": 20.65,
+            "mz": 11.0,
+            "Mx": 14.25,
+            "My": 20.85,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.25,
+            "my": 20.65,
+            "mz": 2.0,
+            "Mx": 14.25,
+            "My": 20.85,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_default:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 18.0,
+            "mz": 7.9,
+            "Mx": 9.0,
+            "My": 21.0,
+            "Mz": 8.1,
+            "subtract": false
+          },
+          {
+            "mx": 7.9,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 8.1,
+            "My": 21.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 20.9,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 21.1,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 20.9,
+            "mz": 2.0,
+            "Mx": 5.0,
+            "My": 21.1,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.0,
+            "my": 20.9,
+            "mz": 3.0,
+            "Mx": 14.0,
+            "My": 21.1,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 20.9,
+            "mz": 11.0,
+            "Mx": 13.0,
+            "My": 21.1,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 20.9,
+            "mz": 2.0,
+            "Mx": 13.0,
+            "My": 21.1,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_begin_sunset:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 18.0,
+            "mz": 7.9,
+            "Mx": 9.0,
+            "My": 21.0,
+            "Mz": 8.1,
+            "subtract": false
+          },
+          {
+            "mx": 7.9,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 8.1,
+            "My": 21.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 4.0,
+            "my": 20.9,
+            "mz": 5.0,
+            "Mx": 10.0,
+            "My": 21.1,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.5,
+            "my": 19.65,
+            "mz": 2.0,
+            "Mx": 4.5,
+            "My": 19.85,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 10.5,
+            "my": 22.15,
+            "mz": 3.0,
+            "Mx": 13.5,
+            "My": 22.35,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 20.9,
+            "mz": 11.0,
+            "Mx": 12.0,
+            "My": 21.1,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 20.9,
+            "mz": 2.0,
+            "Mx": 12.0,
+            "My": 21.1,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_ending_sunset:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.0,
+            "my": 18.0,
+            "mz": 8.1,
+            "Mx": 9.0,
+            "My": 21.0,
+            "Mz": 8.1,
+            "subtract": false
+          },
+          {
+            "mx": 7.9,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 8.1,
+            "My": 21.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 3.5,
+            "my": 20.65,
+            "mz": 5.0,
+            "Mx": 9.5,
+            "My": 20.85,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.75,
+            "my": 18.65,
+            "mz": 2.0,
+            "Mx": 4.75,
+            "My": 18.85,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 8.4,
+            "my": 22.25,
+            "mz": 3.0,
+            "Mx": 8.6,
+            "My": 25.25,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.5,
+            "my": 20.65,
+            "mz": 11.0,
+            "Mx": 11.5,
+            "My": 20.85,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.5,
+            "my": 20.65,
+            "mz": 2.0,
+            "Mx": 11.5,
+            "My": 20.85,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_begin_night:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.2,
+            "my": 17.0,
+            "mz": 8.0,
+            "Mx": 8.2,
+            "My": 19.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.2,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 8.2,
+            "My": 18.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 17.5,
+            "mz": 5.0,
+            "Mx": 5.0,
+            "My": 23.5,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 23.5,
+            "mz": 2.0,
+            "Mx": 5.0,
+            "My": 23.5,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.13268,
+            "my": 17.57612,
+            "mz": 3.0,
+            "Mx": 5.13268,
+            "My": 17.57612,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 2.0,
+            "my": 15.5,
+            "mz": 11.0,
+            "Mx": 5.0,
+            "My": 26.5,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 15.5,
+            "mz": 2.0,
+            "Mx": 5.0,
+            "My": 26.5,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "farmers_sunflower_stage2",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "farmers_sunflower_stage2_ending_night:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": -1.0,
+            "mz": 7.0,
+            "Mx": 11.0,
+            "My": 18.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.8,
+            "my": 17.0,
+            "mz": 8.0,
+            "Mx": 10.8,
+            "My": 19.0,
+            "Mz": 8.0,
+            "subtract": false
+          },
+          {
+            "mx": 7.8,
+            "my": 18.0,
+            "mz": 7.0,
+            "Mx": 10.8,
+            "My": 18.0,
+            "Mz": 9.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.0,
+            "my": 17.5,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 23.5,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.0,
+            "my": 23.5,
+            "mz": 2.0,
+            "Mx": 15.0,
+            "My": 23.5,
+            "Mz": 14.0,
+            "subtract": false
+          },
+          {
+            "mx": 10.86732,
+            "my": 17.57612,
+            "mz": 3.0,
+            "Mx": 13.86732,
+            "My": 17.57612,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.0,
+            "my": 15.5,
+            "mz": 11.0,
+            "Mx": 14.0,
+            "My": 26.5,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 11.0,
+            "my": 15.5,
+            "mz": 2.0,
+            "Mx": 11.0,
+            "My": 26.5,
+            "Mz": 5.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

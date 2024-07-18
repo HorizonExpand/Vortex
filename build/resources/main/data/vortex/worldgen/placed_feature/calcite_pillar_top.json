@@ -1,0 +1,12 @@
+{
+  "feature": "vortex:calcite_pillar_top",
+  "placement": [
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "vortex:mixed_forest",
+  "features": "vortex:mixed_forest_tall_grass",
+  "step": "vegetal_decoration"
+}

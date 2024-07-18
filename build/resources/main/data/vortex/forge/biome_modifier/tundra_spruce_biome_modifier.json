@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "vortex:tundra",
+  "features": "vortex:tundra_spruce",
+  "step": "vegetal_decoration"
+}

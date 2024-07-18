@@ -1,0 +1,129 @@
+{
+  "has_precipitation": true,
+  "temperature": -0.1,
+  "downfall": 0.5,
+  "effects": {
+    "mood_sound": {
+      "sound": "ambient.cave",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "music": {
+      "sound": "music.overworld.old_growth_taiga",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -4831714,
+    "grass_color": -4498375,
+    "sky_color": -10715981,
+    "fog_color": -8484452,
+    "water_color": -14006381,
+    "water_fog_color": -14006381
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "zombie",
+        "weight": 90,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "stray",
+        "weight": 100,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "creeper",
+        "weight": 90,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "pig",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 5
+      },
+      {
+        "type": "sheep",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 5
+      },
+      {
+        "type": "wolf",
+        "weight": 16,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:ore_emerald"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_large_fern",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

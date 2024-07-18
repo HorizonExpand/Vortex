@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "vortex:mixed_forest",
+  "features": "vortex:mixed_forest_oak_trees",
+  "step": "vegetal_decoration"
+}

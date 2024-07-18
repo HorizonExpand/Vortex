@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "vortex:calcite_jungle",
+  "features": "vortex:calcite_pillar_structure",
+  "step": "local_modifications"
+}

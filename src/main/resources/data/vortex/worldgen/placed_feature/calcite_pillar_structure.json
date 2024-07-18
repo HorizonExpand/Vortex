@@ -1,0 +1,16 @@
+{
+  "feature": "vortex:calcite_pillar_structure",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 128
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
