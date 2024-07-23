@@ -979,6 +979,201 @@
         "files": []
       },
       "path": "~/Creative Tabs"
+    },
+    {
+      "name": "BookIcon",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book1_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saudade/vortex/item/BookIconItem.java",
+          "src/main/resources/assets/vortex/models/item/book1_icon.json"
+        ]
+      },
+      "path": "~/Items/Icons"
+    },
+    {
+      "name": "Book2Icon",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book2_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saudade/vortex/item/Book2IconItem.java",
+          "src/main/resources/assets/vortex/models/item/book2_icon.json"
+        ]
+      },
+      "path": "~/Items/Icons"
+    },
+    {
+      "name": "Book3Icon",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book3_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saudade/vortex/item/Book3IconItem.java",
+          "src/main/resources/assets/vortex/models/item/book3_icon.json"
+        ]
+      },
+      "path": "~/Items/Icons"
+    },
+    {
+      "name": "ScrollIcon",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saudade/vortex/item/ScrollIconItem.java",
+          "src/main/resources/assets/vortex/models/item/scroll_icon.json"
+        ]
+      },
+      "path": "~/Items/Icons"
+    },
+    {
+      "name": "LightBlueScrollIcon",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_scroll_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/light_blue_scroll_icon.json",
+          "src/main/java/net/saudade/vortex/item/LightBlueScrollIconItem.java"
+        ]
+      },
+      "path": "~/Items/Icons"
+    },
+    {
+      "name": "AgilityoftheLynx",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agility_of_the_lynx",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/agility_of_the_lynx.json",
+          "src/main/java/net/saudade/vortex/item/AgilityoftheLynxItem.java"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "AncientWritings",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_writings",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/ancient_writings.json",
+          "src/main/java/net/saudade/vortex/item/AncientWritingsItem.java"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "CartographersNotes",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cartographers_notes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saudade/vortex/item/CartographersNotesItem.java",
+          "src/main/resources/assets/vortex/models/item/cartographers_notes.json"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "CodexOfTruth",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "codex_of_truth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/codex_of_truth.json",
+          "src/main/java/net/saudade/vortex/item/CodexOfTruthItem.java"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "MysteriousManuscript",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_manuscript",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/mysterious_manuscript.json",
+          "src/main/java/net/saudade/vortex/item/MysteriousManuscriptItem.java"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "PowerOfTheButterfly",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_the_butterfly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/power_of_the_butterfly.json",
+          "src/main/java/net/saudade/vortex/item/PowerOfTheButterflyItem.java"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "ScrollOfStrength",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_strength",
+      "metadata": {
+        "files": [
+          "src/main/java/net/saudade/vortex/item/ScrollOfStrengthItem.java",
+          "src/main/resources/assets/vortex/models/item/scroll_of_strength.json"
+        ]
+      },
+      "path": "~/Items/Books"
+    },
+    {
+      "name": "TravelersDiary",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travelers_diary",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vortex/models/item/travelers_diary.json",
+          "src/main/java/net/saudade/vortex/item/TravelersDiaryItem.java"
+        ]
+      },
+      "path": "~/Items/Books"
     }
   ],
   "variable_elements": [
@@ -1142,25 +1337,35 @@
   "language_map": {
     "ru_ru": {
       "item.vortex.bottle_with_unrefined_oil": "Бутылка с нерафинированным маслом",
-      "item.vortex.wheat_icon": "Иконка Пшеницы",
+      "item.vortex.power_of_the_butterfly": "§oСила бабочки",
       "item.vortex.common_runestone": "Обычная Руна",
+      "item.vortex.wheat_icon": "Иконка Пшеницы",
       "item.vortex.potion_icon": "Иконка Зелья",
       "item.vortex.farmers_sunflower_head": "Головка фермерского подсолнуха",
       "item_group.vortex.vortex_icons_tab": "Vortex: Иконки",
+      "item.vortex.book2_icon": "Иконка книги",
       "item.vortex.legendary_runestone": "Легендарная Руна",
       "item.vortex.farmers_sunflower": "Семечко фермерского подсолнуха",
       "item.vortex.nest_icon": "Иконка Гнезда",
-      "item_group.vortex.vortex_farming_tab": "Vortex: Farming",
+      "item_group.vortex.vortex_farming_tab": "Vortex: Фермерство",
       "biome.vortex.tundra": "Тундра",
+      "item.vortex.book1_icon": "Иконка книги",
+      "item.vortex.agility_of_the_lynx": "§oЛовкость рыси",
       "item.vortex.gear_icon": "Иконка Шестерни",
       "item.vortex.breeze_icon": "Иконка Бриза",
       "biome.vortex.calcite_jungle": "Кальцитовые Джунгли",
       "item.vortex.powerful_runestone": "Мощная Руна",
+      "item.vortex.ancient_writings": "Древние письмена",
       "item.vortex.weak_runestone": "Слабая Руна",
+      "item.vortex.travelers_diary": "Дневник путешественника",
       "item.vortex.star_icon": "Иконка Звезды",
+      "item.vortex.scroll_icon": "Иконка свитка",
+      "item.vortex.cartographers_notes": "Заметки картографа",
       "item_group.vortex.vortex_items_tab": "Vortex: Предметы",
       "block.vortex.farmers_sunflower": "Фермерский подсолнух",
       "item.vortex.strong_runestone": "Сильная Руна",
+      "item.vortex.codex_of_truth": "Кодекс истины",
+      "item.vortex.mysterious_manuscript": "Таинственная рукопись",
       "item.vortex.bottle_with_refined_oil": "Бутылка с рафинированным маслом",
       "item.vortex.great_runestone": "Великолепная Руна",
       "item.vortex.swordand_shield_icon": "Иконка Меча и Щита",
@@ -1168,30 +1373,43 @@
       "item.vortex.box_icon": "Иконка Ящика",
       "item.vortex.advanced_runestone": "Улучшенная Руна",
       "item.vortex.divine_runestone": "Божественная Руна",
+      "item.vortex.scroll_of_strength": "Свиток мощи",
       "item.vortex.info_icon": "Иконка Информации",
-      "item.vortex.home_icon": "Иконка Дома"
+      "item.vortex.home_icon": "Иконка Дома",
+      "item.vortex.book3_icon": "Иконка книги",
+      "item.vortex.light_blue_scroll_icon": "Иконка голубого свитка"
     },
     "en_us": {
       "item.vortex.bottle_with_unrefined_oil": "Bottle with Unrefined Oil",
-      "item.vortex.common_runestone": "Common Runestone",
+      "item.vortex.power_of_the_butterfly": "§oPower of the Butterfly",
       "item.vortex.wheat_icon": "Wheat Icon",
+      "item.vortex.common_runestone": "Common Runestone",
       "item.vortex.potion_icon": "Potion Icon",
       "item.vortex.farmers_sunflower_head": "Farmers Sunflower Head",
       "item_group.vortex.vortex_icons_tab": "Vortex: Icons",
+      "item.vortex.book2_icon": "Book Icon",
       "item.vortex.legendary_runestone": "Legendary Runestone",
       "item.vortex.nest_icon": "Nest Icon",
       "item.vortex.farmers_sunflower": "",
       "item_group.vortex.vortex_farming_tab": "Vortex: Farming",
       "biome.vortex.tundra": "Tundra",
+      "item.vortex.book1_icon": "Book Icon",
+      "item.vortex.agility_of_the_lynx": "§oAgility of the Lynx",
       "item.vortex.gear_icon": "Gear Icon",
       "item.vortex.breeze_icon": "Breeze Icon",
       "biome.vortex.calcite_jungle": "Calcite Jungle",
       "item.vortex.powerful_runestone": "Powerful Runestone",
+      "item.vortex.ancient_writings": "Ancient Writings",
       "item.vortex.weak_runestone": "Weak Runestone",
+      "item.vortex.travelers_diary": "Travelers Diary",
       "item.vortex.star_icon": "Star Icon",
+      "item.vortex.scroll_icon": "Scroll Icon",
+      "item.vortex.cartographers_notes": "Cartographer\u0027s Notes",
       "item_group.vortex.vortex_items_tab": "Vortex: Items",
       "block.vortex.farmers_sunflower": "Farmers Sunflower",
       "item.vortex.strong_runestone": "Strong Runestone",
+      "item.vortex.codex_of_truth": "Codex of Truth",
+      "item.vortex.mysterious_manuscript": "Mysterious Manuscript",
       "item.vortex.bottle_with_refined_oil": "Bottle with Refined Oil",
       "item.vortex.great_runestone": "Great Runestone",
       "item.vortex.swordand_shield_icon": "Sword and Shield Icon",
@@ -1199,8 +1417,11 @@
       "item.vortex.box_icon": "Box Icon",
       "item.vortex.advanced_runestone": "Advanced Runestone",
       "item.vortex.divine_runestone": "Divine Runestone",
+      "item.vortex.scroll_of_strength": "Scroll of Strength",
       "item.vortex.info_icon": "Info Icon",
-      "item.vortex.home_icon": "Home Icon"
+      "item.vortex.home_icon": "Home Icon",
+      "item.vortex.book3_icon": "Book Icon",
+      "item.vortex.light_blue_scroll_icon": "Light Blue Scroll Icon"
     }
   },
   "foldersRoot": {
@@ -1262,6 +1483,10 @@
           {
             "name": "Runestones",
             "children": []
+          },
+          {
+            "name": "Books",
+            "children": []
           }
         ]
       },
@@ -1278,8 +1503,8 @@
   "workspaceSettings": {
     "modid": "vortex",
     "modName": "Vortex",
-    "version": "0.0.1",
-    "description": "§oNothing ",
+    "version": "0.0.2",
+    "description": "§oNothing §kВы этого не увидите",
     "author": "Saudade Studio (HorizonExpand)",
     "websiteURL": "https://discord.gg/sJayn3BYDh",
     "license": "GNU General Public License version 3 (GPLv3)",

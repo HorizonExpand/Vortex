@@ -4,12 +4,12 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="vortex"
-version="0.0.1"
+version="0.0.2"
 displayName="Vortex"
 displayURL="https://discord.gg/sJayn3BYDh"
 credits="Hrumer, Samuelchik, Linnett"
 authors="Saudade Studio (HorizonExpand)"
-description="§oNothing "
+description="§oNothing §kВы этого не увидите"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

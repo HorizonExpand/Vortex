@@ -171,12 +171,15 @@ Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflo
 Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
 Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
 Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
-Conflicting propagated mapping for net/saudade/vortex/item/CommonRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/Book2IconItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/saudade/vortex/world/features/CalcitePillarStructureFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/SimpleRandomSelectorFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/saudade/vortex/item/Book3IconItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/world/features/MixedForestTallGrassFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/saudade/vortex/item/BookIconItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/saudade/vortex/item/DivineRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/saudade/vortex/item/DivineRunestoneItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
 Conflicting propagated mapping for net/saudade/vortex/item/GreatRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/saudade/vortex/world/features/MixedForestTallGrassFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/saudade/vortex/item/CommonRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/saudade/vortex/item/LegendaryRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/saudade/vortex/item/LegendaryRunestoneItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
 Conflicting propagated mapping for net/saudade/vortex/item/PowerfulRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
@@ -244,10 +247,17 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/models/custom/farmers_sunflower_top.json
   assets/vortex/models/item/
   assets/vortex/models/item/advanced_runestone.json
+  assets/vortex/models/item/agility_of_the_lynx.json
+  assets/vortex/models/item/ancient_writings.json
+  assets/vortex/models/item/book1_icon.json
+  assets/vortex/models/item/book2_icon.json
+  assets/vortex/models/item/book3_icon.json
   assets/vortex/models/item/bottle_with_refined_oil.json
   assets/vortex/models/item/bottle_with_unrefined_oil.json
   assets/vortex/models/item/box_icon.json
   assets/vortex/models/item/breeze_icon.json
+  assets/vortex/models/item/cartographers_notes.json
+  assets/vortex/models/item/codex_of_truth.json
   assets/vortex/models/item/common_runestone.json
   assets/vortex/models/item/divine_runestone.json
   assets/vortex/models/item/farmers_sunflower.json
@@ -257,12 +267,18 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/models/item/home_icon.json
   assets/vortex/models/item/info_icon.json
   assets/vortex/models/item/legendary_runestone.json
+  assets/vortex/models/item/light_blue_scroll_icon.json
+  assets/vortex/models/item/mysterious_manuscript.json
   assets/vortex/models/item/nest_icon.json
   assets/vortex/models/item/potion_icon.json
+  assets/vortex/models/item/power_of_the_butterfly.json
   assets/vortex/models/item/powerful_runestone.json
+  assets/vortex/models/item/scroll_icon.json
+  assets/vortex/models/item/scroll_of_strength.json
   assets/vortex/models/item/star_icon.json
   assets/vortex/models/item/strong_runestone.json
   assets/vortex/models/item/swordand_shield_icon.json
+  assets/vortex/models/item/travelers_diary.json
   assets/vortex/models/item/weak_runestone.json
   assets/vortex/models/item/wheat_icon.json
   assets/vortex/textures/
@@ -272,18 +288,28 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/textures/block/farmers_sunflower_stage1.png
   assets/vortex/textures/block/farmers_sunflower_stage2.png
   assets/vortex/textures/item/
+  assets/vortex/textures/item/agility_of_the_lynx.png
+  assets/vortex/textures/item/ancient_writings.png
+  assets/vortex/textures/item/book1.png
+  assets/vortex/textures/item/book2.png
+  assets/vortex/textures/item/book3.png
   assets/vortex/textures/item/bottle_with_refined_oil.png
   assets/vortex/textures/item/bottle_with_unrefined_oil.png
   assets/vortex/textures/item/box.png
   assets/vortex/textures/item/breeze.png
+  assets/vortex/textures/item/cartographers_notes.png
+  assets/vortex/textures/item/codex_of_truth.png
   assets/vortex/textures/item/farmers_sunflower_head.png
   assets/vortex/textures/item/farmers_sunflower_seed.png
   assets/vortex/textures/item/fried_farmers_sunflower_seed.png
   assets/vortex/textures/item/gear.png
   assets/vortex/textures/item/home.png
   assets/vortex/textures/item/info.png
+  assets/vortex/textures/item/light_blue_scroll.png
+  assets/vortex/textures/item/mysterious_manuscript.png
   assets/vortex/textures/item/nest.png
   assets/vortex/textures/item/potion.png
+  assets/vortex/textures/item/power_of_the_butterfly.png
   assets/vortex/textures/item/runestones1lvl.png
   assets/vortex/textures/item/runestones2lvl.png
   assets/vortex/textures/item/runestones3lvl.png
@@ -292,8 +318,11 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/textures/item/runestones6lvl.png
   assets/vortex/textures/item/runestones7lvl.png
   assets/vortex/textures/item/runestones8lvl.png
+  assets/vortex/textures/item/scroll.png
+  assets/vortex/textures/item/scroll_of_strength.png
   assets/vortex/textures/item/star.png
   assets/vortex/textures/item/sword_shield.png
+  assets/vortex/textures/item/travelers_diary.png
   assets/vortex/textures/item/wheat.png
   data/
   data/forge/
@@ -395,10 +424,17 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/init/VortexModTabs.class
   net/saudade/vortex/item/
   net/saudade/vortex/item/AdvancedRunestoneItem.class
+  net/saudade/vortex/item/AgilityoftheLynxItem.class
+  net/saudade/vortex/item/AncientWritingsItem.class
+  net/saudade/vortex/item/Book2IconItem.class
+  net/saudade/vortex/item/Book3IconItem.class
+  net/saudade/vortex/item/BookIconItem.class
   net/saudade/vortex/item/BottleWithRefinedOilItem.class
   net/saudade/vortex/item/BottleWithUnrefinedOilItem.class
   net/saudade/vortex/item/BoxIconItem.class
   net/saudade/vortex/item/BreezeIconItem.class
+  net/saudade/vortex/item/CartographersNotesItem.class
+  net/saudade/vortex/item/CodexOfTruthItem.class
   net/saudade/vortex/item/CommonRunestoneItem.class
   net/saudade/vortex/item/DivineRunestoneItem.class
   net/saudade/vortex/item/FarmersSunflowerHeadItem.class
@@ -407,12 +443,18 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/item/HomeIconItem.class
   net/saudade/vortex/item/InfoIconItem.class
   net/saudade/vortex/item/LegendaryRunestoneItem.class
+  net/saudade/vortex/item/LightBlueScrollIconItem.class
+  net/saudade/vortex/item/MysteriousManuscriptItem.class
   net/saudade/vortex/item/NestIconItem.class
   net/saudade/vortex/item/PotionIconItem.class
+  net/saudade/vortex/item/PowerOfTheButterflyItem.class
   net/saudade/vortex/item/PowerfulRunestoneItem.class
+  net/saudade/vortex/item/ScrollIconItem.class
+  net/saudade/vortex/item/ScrollOfStrengthItem.class
   net/saudade/vortex/item/StarIconItem.class
   net/saudade/vortex/item/StrongRunestoneItem.class
   net/saudade/vortex/item/SwordandShieldIconItem.class
+  net/saudade/vortex/item/TravelersDiaryItem.class
   net/saudade/vortex/item/WeakRunestoneItem.class
   net/saudade/vortex/item/WheatIconItem.class
   net/saudade/vortex/network/

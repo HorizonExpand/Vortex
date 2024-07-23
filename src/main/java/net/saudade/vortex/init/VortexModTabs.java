@@ -35,6 +35,14 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.POWERFUL_RUNESTONE.get());
 				tabData.accept(VortexModItems.LEGENDARY_RUNESTONE.get());
 				tabData.accept(VortexModItems.DIVINE_RUNESTONE.get());
+				tabData.accept(VortexModItems.AGILITY_OF_THE_LYNX.get());
+				tabData.accept(VortexModItems.ANCIENT_WRITINGS.get());
+				tabData.accept(VortexModItems.CARTOGRAPHERS_NOTES.get());
+				tabData.accept(VortexModItems.CODEX_OF_TRUTH.get());
+				tabData.accept(VortexModItems.MYSTERIOUS_MANUSCRIPT.get());
+				tabData.accept(VortexModItems.POWER_OF_THE_BUTTERFLY.get());
+				tabData.accept(VortexModItems.SCROLL_OF_STRENGTH.get());
+				tabData.accept(VortexModItems.TRAVELERS_DIARY.get());
 			})
 
 					.build());
@@ -50,6 +58,11 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.GEAR_ICON.get());
 				tabData.accept(VortexModItems.BOX_ICON.get());
 				tabData.accept(VortexModItems.BREEZE_ICON.get());
+				tabData.accept(VortexModItems.BOOK1_ICON.get());
+				tabData.accept(VortexModItems.BOOK2_ICON.get());
+				tabData.accept(VortexModItems.BOOK3_ICON.get());
+				tabData.accept(VortexModItems.SCROLL_ICON.get());
+				tabData.accept(VortexModItems.LIGHT_BLUE_SCROLL_ICON.get());
 			})
 
 					.build());

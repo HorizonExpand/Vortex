@@ -6,12 +6,18 @@ package net.saudade.vortex.init;
 
 import net.saudade.vortex.item.WheatIconItem;
 import net.saudade.vortex.item.WeakRunestoneItem;
+import net.saudade.vortex.item.TravelersDiaryItem;
 import net.saudade.vortex.item.SwordandShieldIconItem;
 import net.saudade.vortex.item.StrongRunestoneItem;
 import net.saudade.vortex.item.StarIconItem;
+import net.saudade.vortex.item.ScrollOfStrengthItem;
+import net.saudade.vortex.item.ScrollIconItem;
 import net.saudade.vortex.item.PowerfulRunestoneItem;
+import net.saudade.vortex.item.PowerOfTheButterflyItem;
 import net.saudade.vortex.item.PotionIconItem;
 import net.saudade.vortex.item.NestIconItem;
+import net.saudade.vortex.item.MysteriousManuscriptItem;
+import net.saudade.vortex.item.LightBlueScrollIconItem;
 import net.saudade.vortex.item.LegendaryRunestoneItem;
 import net.saudade.vortex.item.InfoIconItem;
 import net.saudade.vortex.item.HomeIconItem;
@@ -20,10 +26,17 @@ import net.saudade.vortex.item.GearIconItem;
 import net.saudade.vortex.item.FarmersSunflowerHeadItem;
 import net.saudade.vortex.item.DivineRunestoneItem;
 import net.saudade.vortex.item.CommonRunestoneItem;
+import net.saudade.vortex.item.CodexOfTruthItem;
+import net.saudade.vortex.item.CartographersNotesItem;
 import net.saudade.vortex.item.BreezeIconItem;
 import net.saudade.vortex.item.BoxIconItem;
 import net.saudade.vortex.item.BottleWithUnrefinedOilItem;
 import net.saudade.vortex.item.BottleWithRefinedOilItem;
+import net.saudade.vortex.item.BookIconItem;
+import net.saudade.vortex.item.Book3IconItem;
+import net.saudade.vortex.item.Book2IconItem;
+import net.saudade.vortex.item.AncientWritingsItem;
+import net.saudade.vortex.item.AgilityoftheLynxItem;
 import net.saudade.vortex.item.AdvancedRunestoneItem;
 import net.saudade.vortex.VortexMod;
 
@@ -59,6 +72,19 @@ public class VortexModItems {
 	public static final RegistryObject<Item> FARMERS_SUNFLOWER_HEAD = REGISTRY.register("farmers_sunflower_head", () -> new FarmersSunflowerHeadItem());
 	public static final RegistryObject<Item> BOTTLE_WITH_REFINED_OIL = REGISTRY.register("bottle_with_refined_oil", () -> new BottleWithRefinedOilItem());
 	public static final RegistryObject<Item> BOTTLE_WITH_UNREFINED_OIL = REGISTRY.register("bottle_with_unrefined_oil", () -> new BottleWithUnrefinedOilItem());
+	public static final RegistryObject<Item> BOOK1_ICON = REGISTRY.register("book1_icon", () -> new BookIconItem());
+	public static final RegistryObject<Item> BOOK2_ICON = REGISTRY.register("book2_icon", () -> new Book2IconItem());
+	public static final RegistryObject<Item> BOOK3_ICON = REGISTRY.register("book3_icon", () -> new Book3IconItem());
+	public static final RegistryObject<Item> SCROLL_ICON = REGISTRY.register("scroll_icon", () -> new ScrollIconItem());
+	public static final RegistryObject<Item> LIGHT_BLUE_SCROLL_ICON = REGISTRY.register("light_blue_scroll_icon", () -> new LightBlueScrollIconItem());
+	public static final RegistryObject<Item> AGILITY_OF_THE_LYNX = REGISTRY.register("agility_of_the_lynx", () -> new AgilityoftheLynxItem());
+	public static final RegistryObject<Item> ANCIENT_WRITINGS = REGISTRY.register("ancient_writings", () -> new AncientWritingsItem());
+	public static final RegistryObject<Item> CARTOGRAPHERS_NOTES = REGISTRY.register("cartographers_notes", () -> new CartographersNotesItem());
+	public static final RegistryObject<Item> CODEX_OF_TRUTH = REGISTRY.register("codex_of_truth", () -> new CodexOfTruthItem());
+	public static final RegistryObject<Item> MYSTERIOUS_MANUSCRIPT = REGISTRY.register("mysterious_manuscript", () -> new MysteriousManuscriptItem());
+	public static final RegistryObject<Item> POWER_OF_THE_BUTTERFLY = REGISTRY.register("power_of_the_butterfly", () -> new PowerOfTheButterflyItem());
+	public static final RegistryObject<Item> SCROLL_OF_STRENGTH = REGISTRY.register("scroll_of_strength", () -> new ScrollOfStrengthItem());
+	public static final RegistryObject<Item> TRAVELERS_DIARY = REGISTRY.register("travelers_diary", () -> new TravelersDiaryItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
