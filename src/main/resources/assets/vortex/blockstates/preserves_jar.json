@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vortex:block/preserves_jar"
+    },
+    "facing=east": {
+      "model": "vortex:block/preserves_jar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vortex:block/preserves_jar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vortex:block/preserves_jar",
+      "y": 270
+    }
+  }
+}

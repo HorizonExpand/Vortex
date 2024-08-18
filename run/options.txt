@@ -32,7 +32,7 @@ damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
 renderDistance:8
-simulationDistance:8
+simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
@@ -118,11 +118,11 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-soundCategory_master:0.8057395143487858
-soundCategory_music:0.0
+soundCategory_master:0.6081677704194262
+soundCategory_music:0.2065727699530517
 soundCategory_record:1.0
 soundCategory_weather:0.8004694835680752
-soundCategory_block:0.8051643192488261
+soundCategory_block:0.6056338028169014
 soundCategory_hostile:0.6079812206572769
 soundCategory_neutral:0.6009389671361501
 soundCategory_player:0.807511737089202

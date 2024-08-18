@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vortex:custom/crank_particle"
+    }
+  }
+}

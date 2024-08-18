@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/oil_roll",
+  "textures": {
+    "all": "vortex:block/oil_roll",
+    "particle": "vortex:block/oil_roll",
+    "1": "vortex:block/oil_roll"
+  },
+  "render_type": "cutout"
+}

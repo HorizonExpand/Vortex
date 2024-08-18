@@ -4,7 +4,10 @@
  */
 package net.saudade.vortex.init;
 
+import net.saudade.vortex.block.entity.PreservesJarBlockEntity;
+import net.saudade.vortex.block.entity.OilRollBlockEntity;
 import net.saudade.vortex.block.entity.FarmersSunflowerBlockEntity;
+import net.saudade.vortex.block.entity.CrankTileEntity;
 import net.saudade.vortex.VortexMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -17,6 +20,9 @@ import net.minecraft.world.level.block.Block;
 public class VortexModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, VortexMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> FARMERS_SUNFLOWER = register("farmers_sunflower", VortexModBlocks.FARMERS_SUNFLOWER, FarmersSunflowerBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<CrankTileEntity>> CRANK = REGISTRY.register("crank", () -> BlockEntityType.Builder.of(CrankTileEntity::new, VortexModBlocks.CRANK.get()).build(null));
+	public static final RegistryObject<BlockEntityType<?>> OIL_ROLL = register("oil_roll", VortexModBlocks.OIL_ROLL, OilRollBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> PRESERVES_JAR = register("preserves_jar", VortexModBlocks.PRESERVES_JAR, PreservesJarBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

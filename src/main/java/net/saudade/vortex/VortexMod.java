@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 
 import net.saudade.vortex.world.features.StructureFeature;
 import net.saudade.vortex.init.VortexModTabs;
+import net.saudade.vortex.init.VortexModMenus;
 import net.saudade.vortex.init.VortexModItems;
 import net.saudade.vortex.init.VortexModFeatures;
 import net.saudade.vortex.init.VortexModBlocks;
@@ -52,6 +53,7 @@ public class VortexMod {
 		VortexModFeatures.REGISTRY.register(bus);
 		StructureFeature.REGISTRY.register(bus);
 
+		VortexModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

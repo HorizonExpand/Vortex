@@ -18,10 +18,15 @@ public class VortexModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, VortexMod.MODID);
 	public static final RegistryObject<CreativeModeTab> VORTEX_FARMING_TAB = REGISTRY.register("vortex_farming_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_farming_tab")).icon(() -> new ItemStack(VortexModItems.FARMERS_SUNFLOWER_HEAD.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(VortexModItems.FARMERS_SUNFLOWER_HEAD.get());
+				tabData.accept(VortexModBlocks.CRANK.get().asItem());
+				tabData.accept(VortexModBlocks.OIL_ROLL.get().asItem());
+				tabData.accept(VortexModBlocks.PRESERVES_JAR.get().asItem());
 				tabData.accept(VortexModBlocks.FARMERS_SUNFLOWER.get().asItem());
-				tabData.accept(VortexModItems.BOTTLE_WITH_UNREFINED_OIL.get());
-				tabData.accept(VortexModItems.BOTTLE_WITH_REFINED_OIL.get());
+				tabData.accept(VortexModItems.PEELED_FARMERS_SUNFLOWER_SEED.get());
+				tabData.accept(VortexModItems.FRIED_FARMERS_SUNFLOWER_SEED.get());
+				tabData.accept(VortexModItems.FARMERS_SUNFLOWER_HEAD.get());
+				tabData.accept(VortexModItems.BOTTLE_WITH_OIL.get());
+				tabData.accept(VortexModItems.BRINE.get());
 			})
 
 					.build());

@@ -1,0 +1,6 @@
+{
+  "parent": "vortex:displaysettings/crank.item",
+  "textures": {
+    "particle": "vortex:block/crank"
+  }
+}

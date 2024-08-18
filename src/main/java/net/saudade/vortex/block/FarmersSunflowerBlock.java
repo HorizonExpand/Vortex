@@ -40,7 +40,7 @@ public class FarmersSunflowerBlock extends Block implements EntityBlock, Bonemea
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 10);
 
 	public FarmersSunflowerBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(0.5f).lightLevel(s -> (new Object() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(0.1f, 0.5f).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
 					return 0;

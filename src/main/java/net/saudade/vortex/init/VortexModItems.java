@@ -15,6 +15,7 @@ import net.saudade.vortex.item.ScrollIconItem;
 import net.saudade.vortex.item.PowerfulRunestoneItem;
 import net.saudade.vortex.item.PowerOfTheButterflyItem;
 import net.saudade.vortex.item.PotionIconItem;
+import net.saudade.vortex.item.PeeledFarmersSunflowerSeedItem;
 import net.saudade.vortex.item.NestIconItem;
 import net.saudade.vortex.item.MysteriousManuscriptItem;
 import net.saudade.vortex.item.LightBlueScrollIconItem;
@@ -23,21 +24,23 @@ import net.saudade.vortex.item.InfoIconItem;
 import net.saudade.vortex.item.HomeIconItem;
 import net.saudade.vortex.item.GreatRunestoneItem;
 import net.saudade.vortex.item.GearIconItem;
+import net.saudade.vortex.item.FriedFarmersSunflowerSeedItem;
 import net.saudade.vortex.item.FarmersSunflowerHeadItem;
 import net.saudade.vortex.item.DivineRunestoneItem;
 import net.saudade.vortex.item.CommonRunestoneItem;
 import net.saudade.vortex.item.CodexOfTruthItem;
 import net.saudade.vortex.item.CartographersNotesItem;
+import net.saudade.vortex.item.BrineItem;
 import net.saudade.vortex.item.BreezeIconItem;
 import net.saudade.vortex.item.BoxIconItem;
-import net.saudade.vortex.item.BottleWithUnrefinedOilItem;
-import net.saudade.vortex.item.BottleWithRefinedOilItem;
+import net.saudade.vortex.item.BottleWithOilItem;
 import net.saudade.vortex.item.BookIconItem;
 import net.saudade.vortex.item.Book3IconItem;
 import net.saudade.vortex.item.Book2IconItem;
 import net.saudade.vortex.item.AncientWritingsItem;
 import net.saudade.vortex.item.AgilityoftheLynxItem;
 import net.saudade.vortex.item.AdvancedRunestoneItem;
+import net.saudade.vortex.block.display.CrankDisplayItem;
 import net.saudade.vortex.VortexMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -70,8 +73,6 @@ public class VortexModItems {
 	public static final RegistryObject<Item> DIVINE_RUNESTONE = REGISTRY.register("divine_runestone", () -> new DivineRunestoneItem());
 	public static final RegistryObject<Item> NEST_ICON = REGISTRY.register("nest_icon", () -> new NestIconItem());
 	public static final RegistryObject<Item> FARMERS_SUNFLOWER_HEAD = REGISTRY.register("farmers_sunflower_head", () -> new FarmersSunflowerHeadItem());
-	public static final RegistryObject<Item> BOTTLE_WITH_REFINED_OIL = REGISTRY.register("bottle_with_refined_oil", () -> new BottleWithRefinedOilItem());
-	public static final RegistryObject<Item> BOTTLE_WITH_UNREFINED_OIL = REGISTRY.register("bottle_with_unrefined_oil", () -> new BottleWithUnrefinedOilItem());
 	public static final RegistryObject<Item> BOOK1_ICON = REGISTRY.register("book1_icon", () -> new BookIconItem());
 	public static final RegistryObject<Item> BOOK2_ICON = REGISTRY.register("book2_icon", () -> new Book2IconItem());
 	public static final RegistryObject<Item> BOOK3_ICON = REGISTRY.register("book3_icon", () -> new Book3IconItem());
@@ -85,6 +86,13 @@ public class VortexModItems {
 	public static final RegistryObject<Item> POWER_OF_THE_BUTTERFLY = REGISTRY.register("power_of_the_butterfly", () -> new PowerOfTheButterflyItem());
 	public static final RegistryObject<Item> SCROLL_OF_STRENGTH = REGISTRY.register("scroll_of_strength", () -> new ScrollOfStrengthItem());
 	public static final RegistryObject<Item> TRAVELERS_DIARY = REGISTRY.register("travelers_diary", () -> new TravelersDiaryItem());
+	public static final RegistryObject<Item> BOTTLE_WITH_OIL = REGISTRY.register("bottle_with_oil", () -> new BottleWithOilItem());
+	public static final RegistryObject<Item> PEELED_FARMERS_SUNFLOWER_SEED = REGISTRY.register("peeled_farmers_sunflower_seed", () -> new PeeledFarmersSunflowerSeedItem());
+	public static final RegistryObject<Item> FRIED_FARMERS_SUNFLOWER_SEED = REGISTRY.register("fried_farmers_sunflower_seed", () -> new FriedFarmersSunflowerSeedItem());
+	public static final RegistryObject<Item> CRANK = REGISTRY.register(VortexModBlocks.CRANK.getId().getPath(), () -> new CrankDisplayItem(VortexModBlocks.CRANK.get(), new Item.Properties()));
+	public static final RegistryObject<Item> OIL_ROLL = block(VortexModBlocks.OIL_ROLL);
+	public static final RegistryObject<Item> PRESERVES_JAR = block(VortexModBlocks.PRESERVES_JAR);
+	public static final RegistryObject<Item> BRINE = REGISTRY.register("brine", () -> new BrineItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/preserves_jar",
+  "textures": {
+    "all": "vortex:block/preserves_jar",
+    "particle": "vortex:block/preserves_jar",
+    "0": "vortex:block/preserves_jar"
+  },
+  "render_type": "cutout"
+}
