@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,9 +9,11 @@
     "states": [],
     "name": "Weak Runestone",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:VortexItemsTab"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VortexItemsTab"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
@@ -29,7 +31,8 @@
     "specialInformation": {
       "fixedValue": [
         "§7§o1 level"
-      ]
+      ],
+      "name": "WeakRunestoneDopolnitielnaiaInformatsiia"
     },
     "glowCondition": {
       "fixedValue": false
@@ -39,6 +42,7 @@
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },

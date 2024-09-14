@@ -1,7 +1,8 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "feature",
   "definition": {
+    "skipPlacement": false,
     "generationStep": "VEGETAL_DECORATION",
     "restrictionBiomes": [
       {
@@ -11,6 +12,6 @@
     "generateCondition": {
       "name": "MixedForestTallGrassDopolnitielnoieUsloviieGienieratsii"
     },
-    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_random_patch_simple\" inline=\"false\"><field name=\"tries\">128</field><field name=\"xzSpread\">8</field><field name=\"ySpread\">4</field><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.DOUBLE_PLANT#2</field></block></value><value name=\"condition\"><block type=\"block_predicate_is_air\"></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">8</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_surface_water_depth\"><field name=\"depth\">0</field><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR</field><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></xml>"
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_random_patch_simple\" inline=\"false\"><field name=\"tries\">128</field><field name=\"xzSpread\">8</field><field name=\"ySpread\">4</field><value name=\"block\"><block type=\"blockstate_selector\"><mutation inputs=\"0\"/><field name=\"block\">Blocks.DOUBLE_PLANT#2</field></block></value><value name=\"condition\"><block type=\"block_predicate_is_air\"></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">8</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_surface_water_depth\"><field name=\"depth\">0</field><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR</field><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></next></block></xml>"
   }
 }

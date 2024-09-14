@@ -21,6 +21,7 @@ public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarG
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	private final static HashMap<String, String> textstate = new HashMap<>();
 
 	public PreservesJarGUIScreen(PreservesJarGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -58,11 +59,6 @@ public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarG
 			return true;
 		}
 		return super.keyPressed(key, b, c);
-	}
-
-	@Override
-	public void containerTick() {
-		super.containerTick();
 	}
 
 	@Override

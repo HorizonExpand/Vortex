@@ -1,11 +1,14 @@
 
 package net.saudade.vortex.item;
 
+import net.saudade.vortex.procedures.StrongRunestoneDopolnitielnaiaInformatsiiaProcedure;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
@@ -18,6 +21,7 @@ public class StrongRunestoneItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\u00A77\u00A7o3 level"));
+		Entity entity = itemstack.getEntityRepresentation();
+		list.add(Component.literal(StrongRunestoneDopolnitielnaiaInformatsiiaProcedure.execute()));
 	}
 }

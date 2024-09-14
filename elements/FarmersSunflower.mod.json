@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "farmers_sunflower_stage0",
@@ -42,7 +42,7 @@
         "subtract": false
       }
     ],
-    "name": "Farmers Sunflower",
+    "name": "Farmer's Sunflower",
     "specialInformation": {
       "fixedValue": []
     },
@@ -50,9 +50,11 @@
     "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:VortexFarmingTab"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VortexFarmingTab"
+      }
+    ],
     "destroyTool": "hoe",
     "customDrop": {
       "value": ""
@@ -65,7 +67,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "PLANTS"
+      "value": "ROCK"
     },
     "tickRate": 20,
     "tickRandomly": false,
@@ -109,7 +111,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "vanillaToolTier": "NONE",
     "placingCondition": {
       "name": "FarmersSunflowerUsloviieRazmieshchieniiaBloka"
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "preserves_jar",
@@ -95,9 +95,11 @@
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": true,
-    "creativeTab": {
-      "value": "CUSTOM:VortexFarmingTab"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VortexFarmingTab"
+      }
+    ],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""
@@ -154,7 +156,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "PreservesJarGUI",

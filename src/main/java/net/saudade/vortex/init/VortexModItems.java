@@ -6,7 +6,19 @@ package net.saudade.vortex.init;
 
 import net.saudade.vortex.item.WheatIconItem;
 import net.saudade.vortex.item.WeakRunestoneItem;
+import net.saudade.vortex.item.WarriorsContractItem;
 import net.saudade.vortex.item.TravelersDiaryItem;
+import net.saudade.vortex.item.TravelersContractItem;
+import net.saudade.vortex.item.TabletOfTremblingOfEarthItem;
+import net.saudade.vortex.item.TabletOfSwingingMapleItem;
+import net.saudade.vortex.item.TabletOfStormItem;
+import net.saudade.vortex.item.TabletOfLostHousesItem;
+import net.saudade.vortex.item.TabletOfFarThunderItem;
+import net.saudade.vortex.item.TabletOfFallenDestiniesItem;
+import net.saudade.vortex.item.TabletOfClearSkyItem;
+import net.saudade.vortex.item.TabletOfCataclysmItem;
+import net.saudade.vortex.item.TabletOfBreathOfWindItem;
+import net.saudade.vortex.item.TabletOfAbandonedPlacesItem;
 import net.saudade.vortex.item.SwordandShieldIconItem;
 import net.saudade.vortex.item.StrongRunestoneItem;
 import net.saudade.vortex.item.StarIconItem;
@@ -20,12 +32,15 @@ import net.saudade.vortex.item.NestIconItem;
 import net.saudade.vortex.item.MysteriousManuscriptItem;
 import net.saudade.vortex.item.LightBlueScrollIconItem;
 import net.saudade.vortex.item.LegendaryRunestoneItem;
+import net.saudade.vortex.item.InnovatorsContractItem;
 import net.saudade.vortex.item.InfoIconItem;
 import net.saudade.vortex.item.HomeIconItem;
 import net.saudade.vortex.item.GreatRunestoneItem;
 import net.saudade.vortex.item.GearIconItem;
 import net.saudade.vortex.item.FriedFarmersSunflowerSeedItem;
 import net.saudade.vortex.item.FarmersSunflowerHeadItem;
+import net.saudade.vortex.item.FarmersContractItem;
+import net.saudade.vortex.item.EnchantersContractItem;
 import net.saudade.vortex.item.DivineRunestoneItem;
 import net.saudade.vortex.item.CommonRunestoneItem;
 import net.saudade.vortex.item.CodexOfTruthItem;
@@ -93,6 +108,21 @@ public class VortexModItems {
 	public static final RegistryObject<Item> OIL_ROLL = block(VortexModBlocks.OIL_ROLL);
 	public static final RegistryObject<Item> PRESERVES_JAR = block(VortexModBlocks.PRESERVES_JAR);
 	public static final RegistryObject<Item> BRINE = REGISTRY.register("brine", () -> new BrineItem());
+	public static final RegistryObject<Item> TABLET_OF_CLEAR_SKY = REGISTRY.register("tablet_of_clear_sky", () -> new TabletOfClearSkyItem());
+	public static final RegistryObject<Item> TABLET_OF_BREATH_OF_WIND = REGISTRY.register("tablet_of_breath_of_wind", () -> new TabletOfBreathOfWindItem());
+	public static final RegistryObject<Item> TABLET_OF_SWINGING_MAPLE = REGISTRY.register("tablet_of_swinging_maple", () -> new TabletOfSwingingMapleItem());
+	public static final RegistryObject<Item> TABLET_OF_FAR_THUNDER = REGISTRY.register("tablet_of_far_thunder", () -> new TabletOfFarThunderItem());
+	public static final RegistryObject<Item> TABLET_OF_CATACLYSM = REGISTRY.register("tablet_of_cataclysm", () -> new TabletOfCataclysmItem());
+	public static final RegistryObject<Item> TABLET_OF_TREMBLING_OF_EARTH = REGISTRY.register("tablet_of_trembling_of_earth", () -> new TabletOfTremblingOfEarthItem());
+	public static final RegistryObject<Item> TABLET_OF_LOST_HOUSES = REGISTRY.register("tablet_of_lost_houses", () -> new TabletOfLostHousesItem());
+	public static final RegistryObject<Item> TABLET_OF_FALLEN_DESTINIES = REGISTRY.register("tablet_of_fallen_destinies", () -> new TabletOfFallenDestiniesItem());
+	public static final RegistryObject<Item> TABLET_OF_ABANDONED_PLACES = REGISTRY.register("tablet_of_abandoned_places", () -> new TabletOfAbandonedPlacesItem());
+	public static final RegistryObject<Item> TABLET_OF_STORM = REGISTRY.register("tablet_of_storm", () -> new TabletOfStormItem());
+	public static final RegistryObject<Item> ENCHANTERS_CONTRACT = REGISTRY.register("enchanters_contract", () -> new EnchantersContractItem());
+	public static final RegistryObject<Item> WARRIORS_CONTRACT = REGISTRY.register("warriors_contract", () -> new WarriorsContractItem());
+	public static final RegistryObject<Item> FARMERS_CONTRACT = REGISTRY.register("farmers_contract", () -> new FarmersContractItem());
+	public static final RegistryObject<Item> INNOVATORS_CONTRACT = REGISTRY.register("innovators_contract", () -> new InnovatorsContractItem());
+	public static final RegistryObject<Item> TRAVELERS_CONTRACT = REGISTRY.register("travelers_contract", () -> new TravelersContractItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

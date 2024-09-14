@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -7,11 +7,13 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Farmers Sunflower Head",
+    "name": "Farmer's Sunflower Head",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:VortexFarmingTab"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VortexFarmingTab"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -37,6 +39,7 @@
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },

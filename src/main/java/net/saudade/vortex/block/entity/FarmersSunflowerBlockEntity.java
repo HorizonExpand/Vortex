@@ -91,7 +91,7 @@ public class FarmersSunflowerBlockEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Farmers Sunflower");
+		return Component.literal("Farmer's Sunflower");
 	}
 
 	@Override

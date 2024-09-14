@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "animatedblock",
   "definition": {
     "texture": "crank",
@@ -70,6 +70,7 @@
     "creativeTab": {
       "value": "CUSTOM:VortexFarmingTab"
     },
+    "creativeTabs": [],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""
@@ -161,6 +162,7 @@
     "maxGenerateHeight": 64,
     "normal": "crank.geo.json",
     "displaySettings": "crank.item.json",
+    "vanillaToolTier": "NONE",
     "blockstateList": []
   }
 }
