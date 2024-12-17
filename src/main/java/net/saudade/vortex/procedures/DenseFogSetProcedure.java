@@ -2,20 +2,32 @@ package net.saudade.vortex.procedures;
 
 import net.saudade.vortex.network.VortexModVariables;
 
-import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.commands.CommandSourceStack;
 
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.arguments.BoolArgumentType;
 
 public class DenseFogSetProcedure {
-	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments) {
+	public static void execute(CommandContext<CommandSourceStack> arguments, Entity entity) {
+		if (entity == null)
+			return;
 		if (BoolArgumentType.getBool(arguments, "boolean") == true) {
-			VortexModVariables.MapVariables.get(world).DenseFog = true;
-			VortexModVariables.MapVariables.get(world).syncData(world);
+			{
+				boolean _setval = true;
+				entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.DenseFog = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		} else {
-			VortexModVariables.MapVariables.get(world).DenseFog = false;
-			VortexModVariables.MapVariables.get(world).syncData(world);
+			{
+				boolean _setval = false;
+				entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.DenseFog = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		}
 	}
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " a ",
+    "a a",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "vortex:preserves_jar",
+    "count": 1
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bottle_with_refined_oil",
+    "texture": "brine",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -46,6 +46,7 @@
     "projectile": {
       "value": "Arrow"
     },
+    "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 0,
     "saturation": 0.0,

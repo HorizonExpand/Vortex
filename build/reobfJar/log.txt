@@ -135,9 +135,211 @@ Adding Libraries to Inheritance
 Reading Input: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/block/entity/BlockEntity/getUpdateTag()Lnet/minecraft/nbt/CompoundTag;: getUpdateTag -> m_5995_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/load(Lnet/minecraft/nbt/CompoundTag;)V: load -> m_142466_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/isEmpty()Z from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/isEmpty()Z: isEmpty -> m_7983_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/level/block/entity/BlockEntity/getUpdatePacket()Lnet/minecraft/network/protocol/Packet;: getUpdatePacket -> m_58483_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/saveAdditional(Lnet/minecraft/nbt/CompoundTag;)V: saveAdditional -> m_183515_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape; from net/minecraft/world/level/block/BaseEntityBlock/getRenderShape(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/RenderShape;: getRenderShape -> m_7514_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I: getAnalogOutputSignal -> m_6782_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/Container/canPlaceItem(ILnet/minecraft/world/item/ItemStack;)Z: canPlaceItem -> m_7013_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDefaultName()Lnet/minecraft/network/chat/Component;: getDefaultName -> m_6820_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getContainerSize()I from net/minecraft/world/Container/getContainerSize()I: getContainerSize -> m_6643_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z: hasAnalogOutputSignal -> m_7278_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getItems()Lnet/minecraft/core/NonNullList; from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/getItems()Lnet/minecraft/core/NonNullList;: getItems -> m_7086_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/createMenu(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_6555_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/BonemealableBlock/isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z: isBonemealSuccess -> m_214167_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V from net/minecraft/world/level/block/entity/RandomizableContainerBlockEntity/setItems(Lnet/minecraft/core/NonNullList;)V: setItems -> m_6520_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/CrankTileEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/block/BonemealableBlock/performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: performBonemeal -> m_214148_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/saudade/vortex/block/FarmersSunflowerBlock/isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)Z from net/minecraft/world/level/block/BonemealableBlock/isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)Z: isValidBonemealTarget -> m_7370_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/PreservesJarBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/setRemoved()V from net/minecraft/world/level/block/entity/BlockEntity/setRemoved()V: setRemoved -> m_7651_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getMaxStackSize()I from net/minecraft/world/Container/getMaxStackSize()I: getMaxStackSize -> m_6893_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/level/block/entity/BaseContainerBlockEntity/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canPlaceItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canPlaceItemThroughFace -> m_7155_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/getSlotsForFace(Lnet/minecraft/core/Direction;)[I from net/minecraft/world/WorldlyContainer/getSlotsForFace(Lnet/minecraft/core/Direction;)[I: getSlotsForFace -> m_7071_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/OilRollBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/saudade/vortex/block/entity/FarmersSunflowerBlockEntity/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/WorldlyContainer/canTakeItemThroughFace(ILnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Z: canTakeItemThroughFace -> m_7157_
+Conflicting propagated mapping for net/saudade/vortex/block/CrankBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
 Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoItemRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/BlockEntityWithoutLevelRenderer/renderByItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: renderByItem -> m_108829_
+Conflicting propagated mapping for net/saudade/vortex/block/MysticalWellBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/saudade/vortex/block/MysticalWellBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/saudade/vortex/block/MysticalWellBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for net/saudade/vortex/block/MysticalWellBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/MysticalWellBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/saudade/vortex/block/MysticalWellBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I: getAnalogOutputSignal -> m_6782_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onRemove(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onRemove -> m_6810_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z from net/minecraft/world/level/block/state/BlockBehaviour/triggerEvent(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;II)Z: triggerEvent -> m_8133_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z: hasAnalogOutputSignal -> m_7278_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/saudade/vortex/block/OilRollBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider; from net/minecraft/world/level/block/state/BlockBehaviour/getMenuProvider(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/MenuProvider;: getMenuProvider -> m_7246_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I: getAnalogOutputSignal -> m_6782_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/state/BlockBehaviour/hasAnalogOutputSignal(Lnet/minecraft/world/level/block/state/BlockState;)Z: hasAnalogOutputSignal -> m_7278_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/saudade/vortex/block/PreservesJarBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity; from net/minecraft/world/level/block/EntityBlock/newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;: newBlockEntity -> m_142194_
 Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoBlockRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V from net/minecraft/client/renderer/blockentity/BlockEntityRenderer/render(Lnet/minecraft/world/level/block/entity/BlockEntity;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V: render -> m_6922_
+Conflicting propagated mapping for net/saudade/vortex/world/inventory/PreservesJarGUIMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/saudade/vortex/world/inventory/PreservesJarGUIMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/saudade/vortex/world/inventory/PreservesJarGUIMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/saudade/vortex/world/inventory/PreservesJarGUIMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/saudade/vortex/block/TheBeaconOfDestinyBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/WaterWellBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/saudade/vortex/block/WaterWellBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/saudade/vortex/block/WaterWellBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for net/saudade/vortex/block/WaterWellBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/saudade/vortex/block/WaterWellBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/saudade/vortex/block/WaterWellBlock/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getShape -> m_5940_
+Conflicting propagated mapping for net/saudade/vortex/client/model/Modeldefamed_crystal_outgrowth/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/saudade/vortex/client/model/Modeldefamed_crystal_outgrowth/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z from net/minecraft/client/renderer/entity/EntityRenderer/shouldShowName(Lnet/minecraft/world/entity/Entity;)Z: shouldShowName -> m_6512_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for software/bernie/geckolib/renderer/GeoEntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/saudade/vortex/client/gui/PreservesJarGUIScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/saudade/vortex/client/gui/PreservesJarGUIScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/saudade/vortex/client/gui/PreservesJarGUIScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/saudade/vortex/client/gui/PreservesJarGUIScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/saudade/vortex/client/gui/PreservesJarGUIScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canConvertToSource(Lnet/minecraft/world/level/Level;)Z from net/minecraft/world/level/material/FlowingFluid/canConvertToSource(Lnet/minecraft/world/level/Level;)Z: canConvertToSource -> m_6760_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/isSame(Lnet/minecraft/world/level/material/Fluid;)Z from net/minecraft/world/level/material/Fluid/isSame(Lnet/minecraft/world/level/material/Fluid;)Z: isSame -> m_6212_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getPickupSound()Ljava/util/Optional; from net/minecraft/world/level/material/Fluid/getPickupSound()Ljava/util/Optional;: getPickupSound -> m_142520_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getSlopeFindDistance(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/FlowingFluid/getSlopeFindDistance(Lnet/minecraft/world/level/LevelReader;)I: getSlopeFindDistance -> m_6719_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getExplosionResistance()F from net/minecraft/world/level/material/Fluid/getExplosionResistance()F: getExplosionResistance -> m_6752_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getSource()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getSource()Lnet/minecraft/world/level/material/Fluid;: getSource -> m_5613_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getDropOff(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/FlowingFluid/getDropOff(Lnet/minecraft/world/level/LevelReader;)I: getDropOff -> m_6713_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
+Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidMagicGoldFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidMagicGoldFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidMagicGoldFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidMagicGoldFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidMagicGoldFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidSolariteFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidSolariteFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidSolariteFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidSolariteFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for net/saudade/vortex/fluid/LiquidSolariteFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions; from net/minecraft/world/entity/LivingEntity/getDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;: getDimensions -> m_6972_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/pushEntities()V from net/minecraft/world/entity/LivingEntity/pushEntities()V: pushEntities -> m_6138_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/readAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: readAdditionalSaveData -> m_7378_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/defineSynchedData()V from net/minecraft/world/entity/Mob/defineSynchedData()V: defineSynchedData -> m_8097_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V from net/minecraft/world/entity/Mob/addAdditionalSaveData(Lnet/minecraft/nbt/CompoundTag;)V: addAdditionalSaveData -> m_7380_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/aiStep()V from net/minecraft/world/entity/Mob/aiStep()V: aiStep -> m_8107_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/doPush(Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/entity/LivingEntity/doPush(Lnet/minecraft/world/entity/Entity;)V: doPush -> m_7324_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/tickDeath()V from net/minecraft/world/entity/LivingEntity/tickDeath()V: tickDeath -> m_6153_
+Conflicting propagated mapping for net/saudade/vortex/entity/MysticalCoinEntityEntity/isPushable()Z from net/minecraft/world/entity/LivingEntity/isPushable()Z: isPushable -> m_6094_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/server/level/ServerPlayer/canHarmPlayer(Lnet/minecraft/world/entity/player/Player;)Z: canHarmPlayer -> m_7099_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V from net/minecraft/server/level/ServerPlayer/updateOptions(Lnet/minecraft/network/protocol/game/ServerboundClientInformationPacket;)V: updateOptions -> m_9156_
@@ -146,7 +348,53 @@ Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
+Conflicting propagated mapping for net/saudade/vortex/world/features/CalcitePillarStructureFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/SimpleRandomSelectorFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/saudade/vortex/world/features/MixedForestTallGrassFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$Helmet/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/saudade/vortex/item/AncientWritingsItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/AdvancedRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/Book2IconItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/Book3IconItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/BottleWithOilItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/saudade/vortex/item/BottleWithOilItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/saudade/vortex/item/BottleWithOilItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/saudade/vortex/item/BookIconItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
+Conflicting propagated mapping for net/saudade/vortex/item/BrineItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/saudade/vortex/item/BrineItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/saudade/vortex/item/BrineItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/saudade/vortex/item/CartographersNotesItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/CodexOfTruthItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/CommonRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/TheCursedHandItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/saudade/vortex/item/TheCursedHandItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/saudade/vortex/item/TheCursedHandItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/saudade/vortex/item/TheCursedHandItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/saudade/vortex/item/MayoItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/saudade/vortex/item/MayoItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/saudade/vortex/item/MayoItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/saudade/vortex/item/DivineRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/DivineRunestoneItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/saudade/vortex/item/FriedFarmersSunflowerSeedItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/saudade/vortex/item/FriedFarmersSunflowerSeedItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/saudade/vortex/item/GreatRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/LegendaryRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/MysteriousManuscriptItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/LegendaryRunestoneItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/saudade/vortex/item/TravelersDiaryItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/PowerfulRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/PowerOfTheButterflyItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/StrongRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/item/WeakRunestoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/saudade/vortex/world/features/StructureFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/Feature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
@@ -155,6 +403,7 @@ Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getI
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
 Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Conflicting propagated mapping for net/saudade/vortex/world/inventory/PreservesJarGUIMenu$8/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
 Adding extras
 Sorting
 Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build\reobfJar\output.jar
@@ -166,13 +415,20 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/
   assets/vortex/animations/
   assets/vortex/animations/crank.animation.json
+  assets/vortex/animations/mystical_coin.animation.json
   assets/vortex/blockstates/
   assets/vortex/blockstates/crank.json
   assets/vortex/blockstates/farmers_sunflower.json
+  assets/vortex/blockstates/liquid_magic_gold.json
+  assets/vortex/blockstates/liquid_solarite.json
+  assets/vortex/blockstates/mystical_well.json
   assets/vortex/blockstates/oil_roll.json
   assets/vortex/blockstates/preserves_jar.json
+  assets/vortex/blockstates/the_beacon_of_destiny.json
+  assets/vortex/blockstates/water_well.json
   assets/vortex/geo/
   assets/vortex/geo/crank.geo.json
+  assets/vortex/geo/mystical_coin.geo.json
   assets/vortex/lang/
   assets/vortex/lang/en_us.json
   assets/vortex/lang/ru_ru.json
@@ -189,11 +445,16 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/models/block/farmers_sunflower_block_state_blockstate_7.json
   assets/vortex/models/block/farmers_sunflower_block_state_blockstate_8.json
   assets/vortex/models/block/farmers_sunflower_block_state_blockstate_9.json
+  assets/vortex/models/block/liquid_magic_gold.json
+  assets/vortex/models/block/liquid_solarite.json
+  assets/vortex/models/block/mystical_well.json
   assets/vortex/models/block/oil_roll.json
   assets/vortex/models/block/preserves_jar.json
+  assets/vortex/models/block/the_beacon_of_destiny.json
+  assets/vortex/models/block/water_well.json
   assets/vortex/models/custom/
-  assets/vortex/models/custom/crank_-_converted.json
   assets/vortex/models/custom/crank_particle.json
+  assets/vortex/models/custom/cursed_hand.json
   assets/vortex/models/custom/farmers_sunflower.json
   assets/vortex/models/custom/farmers_sunflower04.json
   assets/vortex/models/custom/farmers_sunflower_stage0.json
@@ -214,15 +475,18 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/models/custom/farmers_sunflower_sunset6.json
   assets/vortex/models/custom/farmers_sunflower_sunset7.json
   assets/vortex/models/custom/farmers_sunflower_top.json
+  assets/vortex/models/custom/mystical_coin.json
+  assets/vortex/models/custom/mystical_well.json
   assets/vortex/models/custom/oil_roll.json
   assets/vortex/models/custom/preserves_jar.json
-  assets/vortex/models/custom/rer.json
+  assets/vortex/models/custom/water_well.json
   assets/vortex/models/displaysettings/
   assets/vortex/models/displaysettings/crank.item.json
   assets/vortex/models/item/
   assets/vortex/models/item/advanced_runestone.json
   assets/vortex/models/item/agility_of_the_lynx.json
   assets/vortex/models/item/ancient_writings.json
+  assets/vortex/models/item/blooming_steel_ingot.json
   assets/vortex/models/item/book1_icon.json
   assets/vortex/models/item/book2_icon.json
   assets/vortex/models/item/book3_icon.json
@@ -234,27 +498,52 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/models/item/codex_of_truth.json
   assets/vortex/models/item/common_runestone.json
   assets/vortex/models/item/crank.json
+  assets/vortex/models/item/defamed_crystal_outgrowth_helmet.json
   assets/vortex/models/item/divine_runestone.json
+  assets/vortex/models/item/dwarven_gear.json
   assets/vortex/models/item/enchanters_contract.json
+  assets/vortex/models/item/essence_of_earthquake.json
+  assets/vortex/models/item/essence_of_magic.json
+  assets/vortex/models/item/essence_of_melting.json
+  assets/vortex/models/item/essence_of_nature.json
+  assets/vortex/models/item/essence_of_the_storm.json
   assets/vortex/models/item/farmers_contract.json
   assets/vortex/models/item/farmers_sunflower.json
   assets/vortex/models/item/farmers_sunflower_head.json
   assets/vortex/models/item/fried_farmers_sunflower_seed.json
   assets/vortex/models/item/gear_icon.json
+  assets/vortex/models/item/ghostly_shard.json
   assets/vortex/models/item/great_runestone.json
+  assets/vortex/models/item/hexagonal_mana_stone.json
   assets/vortex/models/item/home_icon.json
   assets/vortex/models/item/info_icon.json
+  assets/vortex/models/item/ingot_of_sprouted_steel.json
   assets/vortex/models/item/innovators_contract.json
   assets/vortex/models/item/legendary_runestone.json
   assets/vortex/models/item/light_blue_scroll_icon.json
+  assets/vortex/models/item/liquid_magic_gold_bucket.json
+  assets/vortex/models/item/liquid_solarite_bucket.json
+  assets/vortex/models/item/mayo.json
   assets/vortex/models/item/mysterious_manuscript.json
+  assets/vortex/models/item/mystical_coin.json
+  assets/vortex/models/item/mystical_well.json
   assets/vortex/models/item/nest_icon.json
   assets/vortex/models/item/oil_roll.json
+  assets/vortex/models/item/orcish_artifact.json
+  assets/vortex/models/item/orcish_bottle.json
+  assets/vortex/models/item/orcish_dust.json
+  assets/vortex/models/item/orcish_monocle.json
+  assets/vortex/models/item/orcish_quiver.json
+  assets/vortex/models/item/orcish_skull.json
+  assets/vortex/models/item/ozgloz_ingot.json
+  assets/vortex/models/item/ozgloz_mixture.json
   assets/vortex/models/item/peeled_farmers_sunflower_seed.json
   assets/vortex/models/item/potion_icon.json
   assets/vortex/models/item/power_of_the_butterfly.json
   assets/vortex/models/item/powerful_runestone.json
   assets/vortex/models/item/preserves_jar.json
+  assets/vortex/models/item/raw_rat_token.json
+  assets/vortex/models/item/rough_stony_mix.json
   assets/vortex/models/item/scroll_icon.json
   assets/vortex/models/item/scroll_of_strength.json
   assets/vortex/models/item/star_icon.json
@@ -270,46 +559,97 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/models/item/tablet_of_storm.json
   assets/vortex/models/item/tablet_of_swinging_maple.json
   assets/vortex/models/item/tablet_of_trembling_of_earth.json
+  assets/vortex/models/item/the_beacon_of_destiny.json
+  assets/vortex/models/item/the_cursed_hand.json
+  assets/vortex/models/item/the_essence_of_a_demi_god.json
+  assets/vortex/models/item/the_pearl_of_gnumuses.json
+  assets/vortex/models/item/the_plague_ingot.json
   assets/vortex/models/item/travelers_contract.json
   assets/vortex/models/item/travelers_diary.json
   assets/vortex/models/item/warriors_contract.json
+  assets/vortex/models/item/water_well.json
   assets/vortex/models/item/weak_runestone.json
   assets/vortex/models/item/wheat_icon.json
+  assets/vortex/sounds.json
+  assets/vortex/sounds/
+  assets/vortex/sounds/crank0.ogg
+  assets/vortex/sounds/crank1.ogg
+  assets/vortex/sounds/crank2.ogg
+  assets/vortex/sounds/crank3.ogg
+  assets/vortex/sounds/crank4.ogg
   assets/vortex/textures/
   assets/vortex/textures/block/
+  assets/vortex/textures/block/beacon_of_destiny.png
   assets/vortex/textures/block/crank.png
+  assets/vortex/textures/block/cursed_hand.png
   assets/vortex/textures/block/farmers_sunflower_head.png
   assets/vortex/textures/block/farmers_sunflower_stage0.png
   assets/vortex/textures/block/farmers_sunflower_stage1.png
   assets/vortex/textures/block/farmers_sunflower_stage2.png
+  assets/vortex/textures/block/liquid_magic_gold.png
+  assets/vortex/textures/block/liquid_solarite.png
+  assets/vortex/textures/block/mystical_well.png
+  assets/vortex/textures/block/mystical_well_particle.png
   assets/vortex/textures/block/oil_roll.png
   assets/vortex/textures/block/preserves_jar.png
+  assets/vortex/textures/block/water_well.png
+  assets/vortex/textures/block/water_well_particle.png
+  assets/vortex/textures/entities/
+  assets/vortex/textures/entities/mystical_coin.png
   assets/vortex/textures/item/
   assets/vortex/textures/item/agility_of_the_lynx.png
   assets/vortex/textures/item/ancient_writings.png
+  assets/vortex/textures/item/blooming_steel_ingot.png
   assets/vortex/textures/item/book1.png
   assets/vortex/textures/item/book2.png
   assets/vortex/textures/item/book3.png
   assets/vortex/textures/item/bottle_with_refined_oil.png
   assets/vortex/textures/item/box.png
   assets/vortex/textures/item/breeze.png
+  assets/vortex/textures/item/brine.png
   assets/vortex/textures/item/cartographers_notes.png
   assets/vortex/textures/item/codex_of_truth.png
+  assets/vortex/textures/item/cursed_hand.png
+  assets/vortex/textures/item/cursed_hand_item.png
+  assets/vortex/textures/item/defamed_crystal_outgrowth.png
+  assets/vortex/textures/item/dwarven_gear.png
   assets/vortex/textures/item/enchanters_contract.png
+  assets/vortex/textures/item/essence_of_demi_god.png
+  assets/vortex/textures/item/essence_of_magic.png
+  assets/vortex/textures/item/essence_of_melting.png
+  assets/vortex/textures/item/essence_of_nature.png
+  assets/vortex/textures/item/essence_of_storm.png
   assets/vortex/textures/item/farmers_contract.png
   assets/vortex/textures/item/farmers_sunflower_head.png
   assets/vortex/textures/item/farmers_sunflower_seed.png
   assets/vortex/textures/item/fried_farmers_sunflower_seed.png
   assets/vortex/textures/item/gear.png
+  assets/vortex/textures/item/hexagonal_mana_stone.png
   assets/vortex/textures/item/home.png
   assets/vortex/textures/item/info.png
+  assets/vortex/textures/item/ingot_of_sprouted_steel.png
   assets/vortex/textures/item/innovators_contract.png
   assets/vortex/textures/item/light_blue_scroll.png
+  assets/vortex/textures/item/monieta3.png
   assets/vortex/textures/item/mysterious_manuscript.png
+  assets/vortex/textures/item/mystical_coin.png
+  assets/vortex/textures/item/mystical_coin_item.png
   assets/vortex/textures/item/nest.png
+  assets/vortex/textures/item/orcish_artifact.png
+  assets/vortex/textures/item/orcish_bottle.png
+  assets/vortex/textures/item/orcish_dust.png
+  assets/vortex/textures/item/orcish_monocle.png
+  assets/vortex/textures/item/orcish_quiver.png
+  assets/vortex/textures/item/orcish_skull.png
+  assets/vortex/textures/item/ozgloz_ingot.png
+  assets/vortex/textures/item/ozgloz_mixture.png
+  assets/vortex/textures/item/pearl_of_gnumuses.png
   assets/vortex/textures/item/peeled_farmers_sunflower_seed.png
+  assets/vortex/textures/item/plague_ingot.png
   assets/vortex/textures/item/potion.png
   assets/vortex/textures/item/power_of_the_butterfly.png
+  assets/vortex/textures/item/raw_rat_token.png
+  assets/vortex/textures/item/rough_stony_mix.png
   assets/vortex/textures/item/runestones1lvl.png
   assets/vortex/textures/item/runestones2lvl.png
   assets/vortex/textures/item/runestones3lvl.png
@@ -336,21 +676,35 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   assets/vortex/textures/item/travelers_diary.png
   assets/vortex/textures/item/warriors_contract.png
   assets/vortex/textures/item/wheat.png
+  assets/vortex/textures/models/
+  assets/vortex/textures/models/armor/
+  assets/vortex/textures/models/armor/defamed_crystal_outgrowth__layer_1.png
+  assets/vortex/textures/models/armor/defamed_crystal_outgrowth__layer_2.png
   assets/vortex/textures/screens/
+  assets/vortex/textures/screens/glass_bottle_border.png
   assets/vortex/textures/screens/preserves_jar_gui.png
   data/
   data/forge/
   data/forge/tags/
+  data/forge/tags/item/
+  data/forge/tags/item/seeds.json
   data/forge/tags/items/
   data/forge/tags/items/seeds.json
   data/minecraft/
   data/minecraft/dimension/
   data/minecraft/dimension/overworld.json
   data/minecraft/tags/
+  data/minecraft/tags/block/
+  data/minecraft/tags/block/mineable/
+  data/minecraft/tags/block/mineable/axe.json
+  data/minecraft/tags/block/mineable/hoe.json
+  data/minecraft/tags/block/mineable/pickaxe.json
+  data/minecraft/tags/block/replaceable.json
   data/minecraft/tags/blocks/
   data/minecraft/tags/blocks/mineable/
   data/minecraft/tags/blocks/mineable/axe.json
   data/minecraft/tags/blocks/mineable/hoe.json
+  data/minecraft/tags/blocks/mineable/pickaxe.json
   data/minecraft/worldgen/
   data/minecraft/worldgen/biome/
   data/minecraft/worldgen/biome/mangrove_swamp.json
@@ -358,6 +712,7 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   data/minecraft/worldgen/density_function/
   data/minecraft/worldgen/density_function/overworld/
   data/minecraft/worldgen/density_function/overworld/continents.json
+  data/minecraft/worldgen/density_function/overworld/erosion.json
   data/minecraft/worldgen/noise/
   data/minecraft/worldgen/noise/temperature.json
   data/minecraft/worldgen/noise_settings/
@@ -379,18 +734,40 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   data/vortex/loot_tables/
   data/vortex/loot_tables/blocks/
   data/vortex/loot_tables/blocks/farmers_sunflower.json
+  data/vortex/loot_tables/blocks/mystical_well.json
   data/vortex/loot_tables/blocks/oil_roll.json
   data/vortex/loot_tables/blocks/preserves_jar.json
+  data/vortex/loot_tables/blocks/the_beacon_of_destiny.json
+  data/vortex/loot_tables/blocks/water_well.json
+  data/vortex/recipes/
+  data/vortex/recipes/crank_recipe.json
+  data/vortex/recipes/oil_roll_recipe.json
+  data/vortex/recipes/preserves_jar_recipe.json
+  data/vortex/recipes/water_well_recipe.json
   data/vortex/structures/
   data/vortex/structures/calcite_pillar0.nbt
   data/vortex/structures/calcite_pillar1.nbt
   data/vortex/tags/
+  data/vortex/tags/block/
+  data/vortex/tags/block/structure_spawning_script_air.json
+  data/vortex/tags/block/structure_spawning_script_dirt.json
+  data/vortex/tags/block/structure_spawning_script_grass.json
   data/vortex/tags/blocks/
   data/vortex/tags/blocks/structure_spawning_script_air.json
   data/vortex/tags/blocks/structure_spawning_script_dirt.json
   data/vortex/tags/blocks/structure_spawning_script_grass.json
+  data/vortex/tags/item/
+  data/vortex/tags/item/brinedly.json
+  data/vortex/tags/item/brinedly_mayo.json
+  data/vortex/tags/item/brinedly_vegetables.json
+  data/vortex/tags/item/mystical_well_reward.json
+  data/vortex/tags/item/seeds_to_oil.json
   data/vortex/tags/items/
   data/vortex/tags/items/brinedly.json
+  data/vortex/tags/items/brinedly_mayo.json
+  data/vortex/tags/items/brinedly_vegetables.json
+  data/vortex/tags/items/mystical_well_reward.json
+  data/vortex/tags/items/seeds_to_oil.json
   data/vortex/worldgen/
   data/vortex/worldgen/biome/
   data/vortex/worldgen/biome/calcite_jungle.json
@@ -426,18 +803,21 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/
   net/saudade/
   net/saudade/vortex/
-  net/saudade/vortex/VortexMod$TextboxSetMessage.class
-  net/saudade/vortex/VortexMod$initer.class
   net/saudade/vortex/VortexMod.class
   net/saudade/vortex/block/
   net/saudade/vortex/block/CrankBlock.class
   net/saudade/vortex/block/FarmersSunflowerBlock$1.class
   net/saudade/vortex/block/FarmersSunflowerBlock.class
+  net/saudade/vortex/block/LiquidMagicGoldBlock.class
+  net/saudade/vortex/block/LiquidSolariteBlock.class
+  net/saudade/vortex/block/MysticalWellBlock.class
   net/saudade/vortex/block/OilRollBlock$1.class
   net/saudade/vortex/block/OilRollBlock.class
   net/saudade/vortex/block/PreservesJarBlock$1.class
   net/saudade/vortex/block/PreservesJarBlock$2.class
   net/saudade/vortex/block/PreservesJarBlock.class
+  net/saudade/vortex/block/TheBeaconOfDestinyBlock.class
+  net/saudade/vortex/block/WaterWellBlock.class
   net/saudade/vortex/block/display/
   net/saudade/vortex/block/display/CrankDisplayItem$1.class
   net/saudade/vortex/block/display/CrankDisplayItem.class
@@ -458,23 +838,52 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/client/
   net/saudade/vortex/client/gui/
   net/saudade/vortex/client/gui/PreservesJarGUIScreen.class
+  net/saudade/vortex/client/model/
+  net/saudade/vortex/client/model/Modeldefamed_crystal_outgrowth.class
+  net/saudade/vortex/client/renderer/
+  net/saudade/vortex/client/renderer/MysticalCoinEntityRenderer.class
   net/saudade/vortex/command/
   net/saudade/vortex/command/DenseFogCommand.class
+  net/saudade/vortex/entity/
+  net/saudade/vortex/entity/MysticalCoinEntityEntity.class
+  net/saudade/vortex/entity/model/
+  net/saudade/vortex/entity/model/MysticalCoinEntityModel.class
+  net/saudade/vortex/fluid/
+  net/saudade/vortex/fluid/LiquidMagicGoldFluid$Flowing.class
+  net/saudade/vortex/fluid/LiquidMagicGoldFluid$Source.class
+  net/saudade/vortex/fluid/LiquidMagicGoldFluid.class
+  net/saudade/vortex/fluid/LiquidSolariteFluid$Flowing.class
+  net/saudade/vortex/fluid/LiquidSolariteFluid$Source.class
+  net/saudade/vortex/fluid/LiquidSolariteFluid.class
+  net/saudade/vortex/fluid/types/
+  net/saudade/vortex/fluid/types/LiquidMagicGoldFluidType$1.class
+  net/saudade/vortex/fluid/types/LiquidMagicGoldFluidType.class
+  net/saudade/vortex/fluid/types/LiquidSolariteFluidType$1.class
+  net/saudade/vortex/fluid/types/LiquidSolariteFluidType.class
   net/saudade/vortex/init/
+  net/saudade/vortex/init/EntityAnimationFactory.class
   net/saudade/vortex/init/VortexModBiomes.class
   net/saudade/vortex/init/VortexModBlockEntities.class
   net/saudade/vortex/init/VortexModBlocks.class
   net/saudade/vortex/init/VortexModCompostableItems.class
+  net/saudade/vortex/init/VortexModEntities.class
+  net/saudade/vortex/init/VortexModEntityRenderers.class
   net/saudade/vortex/init/VortexModFeatures.class
+  net/saudade/vortex/init/VortexModFluidTypes.class
+  net/saudade/vortex/init/VortexModFluids$FluidsClientSideHandler.class
+  net/saudade/vortex/init/VortexModFluids.class
   net/saudade/vortex/init/VortexModFuels.class
   net/saudade/vortex/init/VortexModItems.class
   net/saudade/vortex/init/VortexModMenus.class
+  net/saudade/vortex/init/VortexModModels.class
   net/saudade/vortex/init/VortexModScreens.class
+  net/saudade/vortex/init/VortexModSounds.class
   net/saudade/vortex/init/VortexModTabs.class
   net/saudade/vortex/item/
   net/saudade/vortex/item/AdvancedRunestoneItem.class
   net/saudade/vortex/item/AgilityoftheLynxItem.class
   net/saudade/vortex/item/AncientWritingsItem.class
+  net/saudade/vortex/item/BloomingSteelIngotItem.class
   net/saudade/vortex/item/Book2IconItem.class
   net/saudade/vortex/item/Book3IconItem.class
   net/saudade/vortex/item/BookIconItem.class
@@ -485,24 +894,49 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/item/CartographersNotesItem.class
   net/saudade/vortex/item/CodexOfTruthItem.class
   net/saudade/vortex/item/CommonRunestoneItem.class
+  net/saudade/vortex/item/DefamedCrystalOutgrowthItem$1.class
+  net/saudade/vortex/item/DefamedCrystalOutgrowthItem$Helmet$1.class
+  net/saudade/vortex/item/DefamedCrystalOutgrowthItem$Helmet.class
+  net/saudade/vortex/item/DefamedCrystalOutgrowthItem.class
   net/saudade/vortex/item/DivineRunestoneItem.class
+  net/saudade/vortex/item/DwarvenGearItem.class
   net/saudade/vortex/item/EnchantersContractItem.class
+  net/saudade/vortex/item/EssenceOfEarthquakeItem.class
+  net/saudade/vortex/item/EssenceOfMagicItem.class
+  net/saudade/vortex/item/EssenceOfMeltingItem.class
+  net/saudade/vortex/item/EssenceOfNatureItem.class
+  net/saudade/vortex/item/EssenceOfTheStormItem.class
   net/saudade/vortex/item/FarmersContractItem.class
   net/saudade/vortex/item/FarmersSunflowerHeadItem.class
   net/saudade/vortex/item/FriedFarmersSunflowerSeedItem.class
   net/saudade/vortex/item/GearIconItem.class
+  net/saudade/vortex/item/GhostlyShardItem.class
   net/saudade/vortex/item/GreatRunestoneItem.class
+  net/saudade/vortex/item/HexagonalManaStoneItem.class
   net/saudade/vortex/item/HomeIconItem.class
   net/saudade/vortex/item/InfoIconItem.class
+  net/saudade/vortex/item/IngotOfSproutedSteelItem.class
   net/saudade/vortex/item/InnovatorsContractItem.class
   net/saudade/vortex/item/LegendaryRunestoneItem.class
   net/saudade/vortex/item/LightBlueScrollIconItem.class
+  net/saudade/vortex/item/MayoItem.class
   net/saudade/vortex/item/MysteriousManuscriptItem.class
+  net/saudade/vortex/item/MysticalCoinItem.class
   net/saudade/vortex/item/NestIconItem.class
+  net/saudade/vortex/item/OrcishArtifactItem.class
+  net/saudade/vortex/item/OrcishBottleItem.class
+  net/saudade/vortex/item/OrcishDustItem.class
+  net/saudade/vortex/item/OrcishMonocleItem.class
+  net/saudade/vortex/item/OrcishQuiverItem.class
+  net/saudade/vortex/item/OrcishSkullItem.class
+  net/saudade/vortex/item/OzglozIngotItem.class
+  net/saudade/vortex/item/OzglozMixtureItem.class
   net/saudade/vortex/item/PeeledFarmersSunflowerSeedItem.class
   net/saudade/vortex/item/PotionIconItem.class
   net/saudade/vortex/item/PowerOfTheButterflyItem.class
   net/saudade/vortex/item/PowerfulRunestoneItem.class
+  net/saudade/vortex/item/RawRatTokenItem.class
+  net/saudade/vortex/item/RoughStonyMixItem.class
   net/saudade/vortex/item/ScrollIconItem.class
   net/saudade/vortex/item/ScrollOfStrengthItem.class
   net/saudade/vortex/item/StarIconItem.class
@@ -518,25 +952,32 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/item/TabletOfStormItem.class
   net/saudade/vortex/item/TabletOfSwingingMapleItem.class
   net/saudade/vortex/item/TabletOfTremblingOfEarthItem.class
+  net/saudade/vortex/item/TheCursedHandItem.class
+  net/saudade/vortex/item/TheEssenceOfADemiGodItem.class
+  net/saudade/vortex/item/ThePearlOfGnumusesItem.class
+  net/saudade/vortex/item/ThePlagueIngotItem.class
   net/saudade/vortex/item/TravelersContractItem.class
   net/saudade/vortex/item/TravelersDiaryItem.class
   net/saudade/vortex/item/WarriorsContractItem.class
   net/saudade/vortex/item/WeakRunestoneItem.class
   net/saudade/vortex/item/WheatIconItem.class
   net/saudade/vortex/network/
+  net/saudade/vortex/network/VortexModVariables$1.class
   net/saudade/vortex/network/VortexModVariables$EventBusVariableHandlers.class
-  net/saudade/vortex/network/VortexModVariables$MapVariables.class
-  net/saudade/vortex/network/VortexModVariables$SavedDataSyncMessage.class
-  net/saudade/vortex/network/VortexModVariables$WorldVariables.class
+  net/saudade/vortex/network/VortexModVariables$PlayerVariables.class
+  net/saudade/vortex/network/VortexModVariables$PlayerVariablesProvider.class
+  net/saudade/vortex/network/VortexModVariables$PlayerVariablesSyncMessage.class
   net/saudade/vortex/network/VortexModVariables.class
   net/saudade/vortex/procedures/
   net/saudade/vortex/procedures/AdvancedRunestoneDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/AncientWritingsDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/BottleWithOilPriZaviershieniiIspolzovaniiaProcedure.class
+  net/saudade/vortex/procedures/BottleWithOilStartUsingProcedure.class
   net/saudade/vortex/procedures/BrinePriZaviershieniiIspolzovaniiaProcedure.class
   net/saudade/vortex/procedures/CalcitePillarGenConditionsProcedure.class
   net/saudade/vortex/procedures/CalcitePillarStructureDopolnitielnoieUsloviieGienieratsiiProcedure.class
   net/saudade/vortex/procedures/CartographersNotesDopolnitielnaiaInformatsiiaProcedure.class
+  net/saudade/vortex/procedures/CleaningTheSeedsProcedure.class
   net/saudade/vortex/procedures/CodexOfTruthDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/CommonRunestoneDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/ComputeFogProcedure.class
@@ -547,6 +988,8 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/procedures/CrankUsloviieRazmieshchieniiaBlokaProcedure.class
   net/saudade/vortex/procedures/DenseFogSetProcedure.class
   net/saudade/vortex/procedures/DivineRunestoneDopolnitielnaiaInformatsiiaProcedure.class
+  net/saudade/vortex/procedures/DropMysticalCoinProcedure$1.class
+  net/saudade/vortex/procedures/DropMysticalCoinProcedure.class
   net/saudade/vortex/procedures/FarmersSunflowerPriDobavlieniiBlokaProcedure.class
   net/saudade/vortex/procedures/FarmersSunflowerPriIspolzovaniiKostnoiMukiProcedure.class
   net/saudade/vortex/procedures/FarmersSunflowerPriObnovlieniiTikaProcedure.class
@@ -557,6 +1000,9 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/procedures/InventoryDescProcedure.class
   net/saudade/vortex/procedures/LegendaryRunestoneDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/MixedForestTallGrassDopolnitielnoieUsloviieGienieratsiiProcedure.class
+  net/saudade/vortex/procedures/MysteriousManuscriptDopolnitielnaiaInformatsiiaProcedure.class
+  net/saudade/vortex/procedures/MysticalCoinEntityPriObnovlieniiTikaSushchnostiProcedure.class
+  net/saudade/vortex/procedures/OpeningRecipeProcedure.class
   net/saudade/vortex/procedures/PowerOfTheButterflyDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/PowerfulRunestoneDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$1.class
@@ -576,8 +1022,26 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$22.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$23.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$24.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$25.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$26.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$27.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$28.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$29.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$3.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$30.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$31.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$32.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$33.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$34.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$35.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$36.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$37.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$38.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$39.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$4.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$40.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$41.class
+  net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$42.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$5.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$6.class
   net/saudade/vortex/procedures/PreservesJarPriObnovlieniiTikaProcedure$7.class
@@ -587,6 +1051,9 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$1.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$10.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$11.class
+  net/saudade/vortex/procedures/RMCOnOilRollProcedure$12.class
+  net/saudade/vortex/procedures/RMCOnOilRollProcedure$13.class
+  net/saudade/vortex/procedures/RMCOnOilRollProcedure$14.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$2.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$3.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$4.class
@@ -596,9 +1063,13 @@ Writing Output: D:\Games\MCreator 2023.3 (EAP 3)\MCreatorWorkspaces\vortex\build
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$8.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure$9.class
   net/saudade/vortex/procedures/RMCOnOilRollProcedure.class
-  net/saudade/vortex/procedures/ScrollOfStrengthDopolnitielnaiaInformatsiiaProcedure.class
+  net/saudade/vortex/procedures/RMCOnWaterWellProcedure$1.class
+  net/saudade/vortex/procedures/RMCOnWaterWellProcedure$2.class
+  net/saudade/vortex/procedures/RMCOnWaterWellProcedure.class
   net/saudade/vortex/procedures/StrongRunestoneDopolnitielnaiaInformatsiiaProcedure.class
+  net/saudade/vortex/procedures/TheCursedHandPriZaviershieniiIspolzovaniiaProcedure.class
   net/saudade/vortex/procedures/TravelersDiaryDopolnitielnaiaInformatsiiaProcedure.class
+  net/saudade/vortex/procedures/WaterWellUsloviieRazmieshchieniiaBlokaProcedure.class
   net/saudade/vortex/procedures/WeakRunestoneDopolnitielnaiaInformatsiiaProcedure.class
   net/saudade/vortex/world/
   net/saudade/vortex/world/features/

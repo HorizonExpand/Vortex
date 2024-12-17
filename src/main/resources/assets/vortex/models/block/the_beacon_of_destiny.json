@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vortex:block/beacon_of_destiny",
+    "particle": "vortex:block/beacon_of_destiny"
+  },
+  "render_type": "solid"
+}

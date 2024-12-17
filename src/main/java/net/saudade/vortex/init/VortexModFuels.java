@@ -17,5 +17,7 @@ public class VortexModFuels {
 		ItemStack itemstack = event.getItemStack();
 		if (itemstack.getItem() == VortexModItems.FARMERS_SUNFLOWER_HEAD.get())
 			event.setBurnTime(50);
+		else if (itemstack.getItem() == VortexModItems.ESSENCE_OF_MELTING.get())
+			event.setBurnTime(1600);
 	}
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "bbb",
+    "f f",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "quark:cobblestone_bricks"
+    },
+    "f": {
+      "tag": "minecraft:wooden_fences"
+    },
+    "b": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "vortex:water_well"
+  },
+  "show_notification": true
+}

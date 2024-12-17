@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "animatedblock",
   "definition": {
     "texture": "crank",
@@ -67,10 +67,11 @@
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": true,
-    "creativeTab": {
-      "value": "CUSTOM:VortexFarmingTab"
-    },
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VortexFarmingTab"
+      }
+    ],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""
@@ -128,7 +129,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "placingCondition": {
       "name": "CrankUsloviieRazmieshchieniiaBloka"
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "block",
   "definition": {
     "texture": "farmers_sunflower_stage0",
@@ -42,6 +42,7 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Farmer's Sunflower",
     "specialInformation": {
       "fixedValue": []

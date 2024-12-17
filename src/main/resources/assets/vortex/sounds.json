@@ -1,0 +1,27 @@
+{
+  "crank": {
+    "subtitle": "subtitles.crank",
+    "sounds": [
+      {
+        "name": "vortex:crank0",
+        "stream": false
+      },
+      {
+        "name": "vortex:crank1",
+        "stream": false
+      },
+      {
+        "name": "vortex:crank2",
+        "stream": false
+      },
+      {
+        "name": "vortex:crank3",
+        "stream": false
+      },
+      {
+        "name": "vortex:crank4",
+        "stream": false
+      }
+    ]
+  }
+}

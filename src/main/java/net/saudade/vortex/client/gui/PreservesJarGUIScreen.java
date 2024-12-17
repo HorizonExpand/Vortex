@@ -21,7 +21,6 @@ public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarG
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	private final static HashMap<String, String> textstate = new HashMap<>();
 
 	public PreservesJarGUIScreen(PreservesJarGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -49,6 +48,9 @@ public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarG
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("vortex:textures/screens/glass_bottle_border.png"), this.leftPos + 124, this.topPos + 17, 0, 0, 16, 16, 16, 16);
+
 		RenderSystem.disableBlend();
 	}
 

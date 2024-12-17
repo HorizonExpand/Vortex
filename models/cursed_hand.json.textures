@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "cursed_hand"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -62,7 +62,7 @@ public class ComputeFogProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (VortexModVariables.MapVariables.get(world).DenseFog == true) {
+		if ((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFog == true) {
 			if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("vortex:calcite_jungle"))) {
 				if (entity.isUnderWater()) {
 					setDistance(0, 32);

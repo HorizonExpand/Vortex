@@ -34,7 +34,7 @@ public class DenseFogCommand {
 					if (entity != null)
 						direction = entity.getDirection();
 
-					DenseFogSetProcedure.execute(world, arguments);
+					DenseFogSetProcedure.execute(arguments, entity);
 					return 0;
 				})));
 	}

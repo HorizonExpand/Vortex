@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/water_well",
+  "textures": {
+    "all": "vortex:block/water_well",
+    "particle": "vortex:block/water_well_particle",
+    "1": "vortex:block/water_well"
+  },
+  "render_type": "cutout"
+}

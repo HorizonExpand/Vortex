@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/mystical_well",
+  "textures": {
+    "all": "vortex:block/mystical_well",
+    "particle": "vortex:block/mystical_well_particle",
+    "0": "vortex:block/mystical_well"
+  },
+  "render_type": "cutout"
+}
