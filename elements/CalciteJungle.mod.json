@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "biome",
   "definition": {
     "name": "Calcite Jungle",
@@ -13,6 +13,10 @@
       "value": "Blocks.SAND#0"
     },
     "airColor": {
+      "value": -608361,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -608361,
       "falpha": 0.0
     },

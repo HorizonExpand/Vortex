@@ -29,22 +29,7 @@ public class VortexModTabs {
 				tabData.accept(VortexModBlocks.PRESERVES_JAR.get().asItem());
 				tabData.accept(VortexModBlocks.WATER_WELL.get().asItem());
 				tabData.accept(VortexModBlocks.MYSTICAL_WELL.get().asItem());
-			})
-
-					.build());
-	public static final RegistryObject<CreativeModeTab> VORTEX_RUNESTONES_TAB = REGISTRY.register("vortex_runestones_tab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_runestones_tab")).icon(() -> new ItemStack(VortexModItems.DIVINE_RUNESTONE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(VortexModItems.WEAK_RUNESTONE.get());
-				tabData.accept(VortexModItems.COMMON_RUNESTONE.get());
-				tabData.accept(VortexModItems.STRONG_RUNESTONE.get());
-				tabData.accept(VortexModItems.ADVANCED_RUNESTONE.get());
-				tabData.accept(VortexModItems.GREAT_RUNESTONE.get());
-				tabData.accept(VortexModItems.POWERFUL_RUNESTONE.get());
-				tabData.accept(VortexModItems.LEGENDARY_RUNESTONE.get());
-				tabData.accept(VortexModItems.DIVINE_RUNESTONE.get());
-			})
-
-					.build());
+			}).build());
 	public static final RegistryObject<CreativeModeTab> VORTEX_ITEMS_TAB = REGISTRY.register("vortex_items_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_items_tab")).icon(() -> new ItemStack(VortexModItems.MYSTICAL_COIN.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(VortexModItems.DEFAMED_CRYSTAL_OUTGROWTH_HELMET.get());
@@ -85,9 +70,20 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.OZGLOZ_MIXTURE.get());
 				tabData.accept(VortexModBlocks.THE_BEACON_OF_DESTINY.get().asItem());
 				tabData.accept(VortexModItems.GHOSTLY_SHARD.get());
-			})
-
-					.build());
+			}).withTabsBefore(VORTEX_FARMING_TAB.getId()).build());
+	public static final RegistryObject<CreativeModeTab> VORTEX_TABLETS_TAB = REGISTRY.register("vortex_tablets_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_tablets_tab")).icon(() -> new ItemStack(VortexModItems.TABLET_OF_STORM.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(VortexModItems.TABLET_OF_CLEAR_SKY.get());
+				tabData.accept(VortexModItems.TABLET_OF_BREATH_OF_WIND.get());
+				tabData.accept(VortexModItems.TABLET_OF_SWINGING_MAPLE.get());
+				tabData.accept(VortexModItems.TABLET_OF_TREMBLING_OF_EARTH.get());
+				tabData.accept(VortexModItems.TABLET_OF_FAR_THUNDER.get());
+				tabData.accept(VortexModItems.TABLET_OF_CATACLYSM.get());
+				tabData.accept(VortexModItems.TABLET_OF_LOST_HOUSES.get());
+				tabData.accept(VortexModItems.TABLET_OF_FALLEN_DESTINIES.get());
+				tabData.accept(VortexModItems.TABLET_OF_ABANDONED_PLACES.get());
+				tabData.accept(VortexModItems.TABLET_OF_STORM.get());
+			}).withTabsBefore(VORTEX_ITEMS_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> VORTEX_ICONS_TAB = REGISTRY.register("vortex_icons_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_icons_tab")).icon(() -> new ItemStack(VortexModItems.INFO_ICON.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(VortexModItems.BOX_ICON.get());
@@ -107,22 +103,16 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.LIGHT_BLUE_SCROLL_ICON.get());
 				tabData.accept(VortexModItems.AGILITY_OF_THE_LYNX.get());
 				tabData.accept(VortexModItems.SCROLL_OF_STRENGTH.get());
-			})
-
-					.build());
-	public static final RegistryObject<CreativeModeTab> VORTEX_TABLETS_TAB = REGISTRY.register("vortex_tablets_tab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_tablets_tab")).icon(() -> new ItemStack(VortexModItems.TABLET_OF_STORM.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(VortexModItems.TABLET_OF_CLEAR_SKY.get());
-				tabData.accept(VortexModItems.TABLET_OF_BREATH_OF_WIND.get());
-				tabData.accept(VortexModItems.TABLET_OF_SWINGING_MAPLE.get());
-				tabData.accept(VortexModItems.TABLET_OF_TREMBLING_OF_EARTH.get());
-				tabData.accept(VortexModItems.TABLET_OF_FAR_THUNDER.get());
-				tabData.accept(VortexModItems.TABLET_OF_CATACLYSM.get());
-				tabData.accept(VortexModItems.TABLET_OF_LOST_HOUSES.get());
-				tabData.accept(VortexModItems.TABLET_OF_FALLEN_DESTINIES.get());
-				tabData.accept(VortexModItems.TABLET_OF_ABANDONED_PLACES.get());
-				tabData.accept(VortexModItems.TABLET_OF_STORM.get());
-			})
-
-					.build());
+			}).withTabsBefore(VORTEX_TABLETS_TAB.getId()).build());
+	public static final RegistryObject<CreativeModeTab> VORTEX_RUNESTONES_TAB = REGISTRY.register("vortex_runestones_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_runestones_tab")).icon(() -> new ItemStack(VortexModItems.DIVINE_RUNESTONE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(VortexModItems.WEAK_RUNESTONE.get());
+				tabData.accept(VortexModItems.COMMON_RUNESTONE.get());
+				tabData.accept(VortexModItems.STRONG_RUNESTONE.get());
+				tabData.accept(VortexModItems.ADVANCED_RUNESTONE.get());
+				tabData.accept(VortexModItems.GREAT_RUNESTONE.get());
+				tabData.accept(VortexModItems.POWERFUL_RUNESTONE.get());
+				tabData.accept(VortexModItems.LEGENDARY_RUNESTONE.get());
+				tabData.accept(VortexModItems.DIVINE_RUNESTONE.get());
+			}).withTabsBefore(VORTEX_ICONS_TAB.getId()).build());
 }

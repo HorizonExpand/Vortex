@@ -1,11 +1,12 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "fluid",
   "definition": {
     "name": "Liquid Magic Gold",
     "bucketName": "Liquid Solarite Bucket",
     "textureStill": "liquid_magic_gold",
     "textureFlowing": "liquid_magic_gold",
+    "hasFog": false,
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,

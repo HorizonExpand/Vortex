@@ -20,7 +20,8 @@ public class LiquidSolariteFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("vortex:block/liquid_solarite"), FLOWING_TEXTURE = new ResourceLocation("vortex:block/liquid_solarite");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("vortex:block/liquid_solarite");
+			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("vortex:block/liquid_solarite");
 
 			@Override
 			public ResourceLocation getStillTexture() {

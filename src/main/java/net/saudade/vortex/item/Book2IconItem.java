@@ -18,6 +18,6 @@ public class Book2IconItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		list.add(Component.literal("\u00A77\u00A7o2"));
+		list.add(Component.translatable("item.vortex.book2_icon.description_0"));
 	}
 }

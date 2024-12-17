@@ -4,12 +4,12 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="vortex"
-version="0.0.19"
+version="0.0.20"
 displayName="Vortex"
 displayURL="https://discord.gg/sJayn3BYDh"
 credits="Hrumer, Samuelchik, Linnett"
 authors="Saudade Studio (HorizonExpand)"
-description="§oNothing §kВы этого не увидите"
+description="\u00A7oNothing \u00A7k\u0412\u044B \u044D\u0442\u043E\u0433\u043E \u043D\u0435 \u0443\u0432\u0438\u0434\u0438\u0442\u0435"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -18,7 +18,7 @@ description="§oNothing §kВы этого не увидите"
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 
@@ -29,3 +29,6 @@ description="§oNothing §kВы этого не увидите"
     ordering="NONE"
     side="BOTH"
 
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

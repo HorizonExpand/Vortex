@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "block",
   "definition": {
     "texture": "farmers_sunflower_stage0",
@@ -127,7 +127,6 @@
       "name": "FarmersSunflowerPriIspolzovaniiKostnoiMuki"
     },
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

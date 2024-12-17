@@ -1,11 +1,12 @@
 {
-  "_fv": 69,
+  "_fv": 73,
   "_type": "fluid",
   "definition": {
     "name": "Liquid Solarite",
     "bucketName": "Liquid Solarite Bucket",
     "textureStill": "liquid_solarite",
     "textureFlowing": "liquid_solarite",
+    "hasFog": false,
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,

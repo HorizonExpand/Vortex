@@ -32,9 +32,9 @@ public class CalcitePillarGenConditionsProcedure {
 		AirTagName = "vortex:structure_spawning_script_air";
 		UnderSoilTagName = "vortex:structure_spawning_script_dirt";
 		TopSoilTagName = "vortex:structure_spawning_script_grass";
-		TopSoil = new ItemStack(Blocks.GRASS_BLOCK);
-		UnderSoil = new ItemStack(Blocks.DIRT);
-		Air = new ItemStack(Blocks.AIR);
+		TopSoil = new ItemStack(Blocks.GRASS_BLOCK).copy();
+		UnderSoil = new ItemStack(Blocks.DIRT).copy();
+		Air = new ItemStack(Blocks.AIR).copy();
 		ScriptOffsetY = y + 0;
 		PositionOffsetX = x + 0;
 		PositionOffsetZ = z + 0;

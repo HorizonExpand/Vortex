@@ -20,7 +20,8 @@ public class LiquidMagicGoldFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("vortex:block/liquid_magic_gold"), FLOWING_TEXTURE = new ResourceLocation("vortex:block/liquid_magic_gold");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("vortex:block/liquid_magic_gold");
+			private static final ResourceLocation FLOWING_TEXTURE = new ResourceLocation("vortex:block/liquid_magic_gold");
 
 			@Override
 			public ResourceLocation getStillTexture() {
