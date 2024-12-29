@@ -125,6 +125,7 @@ public class FarmersSunflowerBlock extends Block implements EntityBlock, Bonemea
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		super.createBlockStateDefinition(builder);
 		builder.add(BLOCKSTATE);
 	}
 

@@ -24,6 +24,8 @@ public class VortexModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> OIL_ROLL = register("oil_roll", VortexModBlocks.OIL_ROLL, OilRollBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PRESERVES_JAR = register("preserves_jar", VortexModBlocks.PRESERVES_JAR, PreservesJarBlockEntity::new);
 
+	// Start of user code block custom block entities
+	// End of user code block custom block entities
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}
