@@ -64,27 +64,27 @@ public class ComputeFogProcedure {
 			if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("vortex:calcite_jungle"))) {
 				if ((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance > 10) {
 					{
-						double _setval = (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance - 0.2;
+						double _setval = (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance - 1;
 						entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 							capability.DenseFogDistance = _setval;
 							capability.syncPlayerVariables(entity);
 						});
 					}
 				}
-				setDistance((float) ((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance * 1.6),
-						(float) (end - (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance * 1.6));
+				setDistance((float) (0.4 * Math.sqrt((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance)),
+						(float) (Math.sqrt(end) * 2 + (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance));
 			} else {
-				if ((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance < 40) {
+				if ((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance < 160) {
 					{
-						double _setval = (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance + 0.2;
+						double _setval = (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance + 1;
 						entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 							capability.DenseFogDistance = _setval;
 							capability.syncPlayerVariables(entity);
 						});
 					}
 				}
-				setDistance((float) ((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance * 1.6),
-						(float) (end - (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance * 1.6));
+				setDistance((float) (0.4 * Math.sqrt((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance)),
+						(float) (Math.sqrt(end) * 2 + (entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).DenseFogDistance));
 			}
 		}
 	}

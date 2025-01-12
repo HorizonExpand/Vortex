@@ -95,7 +95,7 @@ public class FarmersSunflowerPriObnovlieniiTikaProcedure {
 				}
 			}
 		}
-		if (Math.random() < 0.01) {
+		if (Math.random() < 0.002) {
 			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip18 ? blockstate.getValue(_getip18) : -1) == 0) {
 				{
 					int _value = 1;
@@ -104,7 +104,8 @@ public class FarmersSunflowerPriObnovlieniiTikaProcedure {
 					if (_bs.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
 						world.setBlock(_pos, _bs.setValue(_integerProp, _value), 3);
 				}
-			} else {
+			} else if (((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip21 ? blockstate.getValue(_getip21) : -1)) > (0)
+					&& ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip21 ? blockstate.getValue(_getip21) : -1)) < (4)) {
 				{
 					int _value = 4;
 					BlockPos _pos = BlockPos.containing(x, y, z);

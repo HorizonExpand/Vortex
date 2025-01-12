@@ -29,10 +29,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§7§o9 Level"
+      ]
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,

@@ -9,7 +9,12 @@
             "structure": "vortex:calcite_pillar0",
             "random_rotation": true,
             "random_mirror": true,
-            "ignored_blocks": "minecraft:air"
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -4,
+              0
+            ]
           }
         },
         "placement": []
@@ -21,7 +26,12 @@
             "structure": "vortex:calcite_pillar1",
             "random_rotation": true,
             "random_mirror": true,
-            "ignored_blocks": "minecraft:air"
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              0,
+              -4,
+              0
+            ]
           }
         },
         "placement": []

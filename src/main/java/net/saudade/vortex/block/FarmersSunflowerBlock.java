@@ -8,7 +8,6 @@ import net.saudade.vortex.procedures.FarmersSunflowerUsloviieRazrieshieniiaIspol
 import net.saudade.vortex.procedures.FarmersSunflowerUsloviieRazmieshchieniiaBlokaProcedure;
 import net.saudade.vortex.procedures.FarmersSunflowerPriObnovlieniiTikaProcedure;
 import net.saudade.vortex.procedures.FarmersSunflowerPriIspolzovaniiKostnoiMukiProcedure;
-import net.saudade.vortex.procedures.FarmersSunflowerPriDobavlieniiBlokaProcedure;
 import net.saudade.vortex.block.entity.FarmersSunflowerBlockEntity;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -86,41 +85,36 @@ public class FarmersSunflowerBlock extends Block implements EntityBlock, Bonemea
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		if (state.getValue(BLOCKSTATE) == 1) {
-			return Shapes.or(box(6, -1, 7, 10, 15.4, 11), box(3.5, 15.5, 3.5, 12.5, 16.5, 12.5));
+			return Shapes.or(box(7, 10, 6, 11, 13, 10), box(6, -1, 6, 10, 10, 10));
 		}
 		if (state.getValue(BLOCKSTATE) == 2) {
-			return Shapes.or(box(6, -1, 7, 10, 15.4, 11), box(2.5, 15.5, 3.5, 12.5, 16.5, 12.5));
+			return box(6, -1, 6, 10, 13, 10);
 		}
 		if (state.getValue(BLOCKSTATE) == 3) {
-			return Shapes.or(box(6, -1, 7, 10, 15.4, 11), box(3.5, 15.5, 3.5, 12.5, 16.5, 12.5));
+			return Shapes.or(box(5, 10, 6, 9, 13, 10), box(6, -1, 6, 10, 10, 10));
 		}
 		if (state.getValue(BLOCKSTATE) == 4) {
-			return Shapes.or(box(7, -1, 7, 11, 18, 11), box(7, 18, 7.9, 9, 21, 8.1), box(7.9, 18, 7, 8.1, 21, 9), box(7, 20.15, 5, 13, 20.35, 11), box(7.9, 22, 2, 8.1, 26, 14), box(11.75, 18.15, 3, 14.75, 18.35, 13), box(4, 20.15, 11, 15, 20.35, 14),
-					box(4, 20.15, 2, 15, 20.35, 5));
+			return box(6, -1, 6, 10, 21, 10);
 		}
 		if (state.getValue(BLOCKSTATE) == 5) {
-			return Shapes.or(box(7, -1, 7, 11, 18, 11), box(7, 18, 7.9, 9, 21, 8.1), box(7.9, 18, 7, 8.1, 21, 9), box(6.25, 20.65, 5, 12.25, 20.85, 11), box(2, 21.9, 2, 6, 22.1, 14), box(12, 19.4, 3, 15, 19.6, 13),
-					box(3.25, 20.65, 11, 14.25, 20.85, 14), box(3.25, 20.65, 2, 14.25, 20.85, 5));
+			return box(6, -1, 6, 10, 21, 10);
 		}
 		if (state.getValue(BLOCKSTATE) == 6) {
-			return Shapes.or(box(7, -1, 7, 11, 18, 11), box(7, 18, 7.9, 9, 21, 8.1), box(7.9, 18, 7, 8.1, 21, 9), box(5, 20.9, 5, 11, 21.1, 11), box(1, 20.9, 2, 5, 21.1, 14), box(11, 20.9, 3, 14, 21.1, 13), box(2, 20.9, 11, 13, 21.1, 14),
-					box(2, 20.9, 2, 13, 21.1, 5));
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(1, 21, 1, 15, 23, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 7) {
-			return Shapes.or(box(7, -1, 7, 11, 18, 11), box(7, 18, 7.9, 9, 21, 8.1), box(7.9, 18, 7, 8.1, 21, 9), box(4, 20.9, 5, 10, 21.1, 11), box(0.5, 19.65, 2, 4.5, 19.85, 14), box(10.5, 22.15, 3, 13.5, 22.35, 13), box(1, 20.9, 11, 12, 21.1, 14),
-					box(1, 20.9, 2, 12, 21.1, 5));
+			return box(6, -1, 6, 10, 21, 10);
 		}
 		if (state.getValue(BLOCKSTATE) == 8) {
-			return Shapes.or(box(7, -1, 7, 11, 18, 11), box(7.9, 18, 7, 8.1, 21, 9), box(3.5, 20.65, 5, 9.5, 20.85, 11), box(0.75, 18.65, 2, 4.75, 18.85, 14), box(8.4, 22.25, 3, 8.6, 25.25, 13), box(0.5, 20.65, 11, 11.5, 20.85, 14),
-					box(0.5, 20.65, 2, 11.5, 20.85, 5));
+			return box(6, -1, 6, 10, 21, 10);
 		}
 		if (state.getValue(BLOCKSTATE) == 9) {
-			return box(7, -1, 7, 11, 18, 11);
+			return box(6, -1, 6, 10, 21, 10);
 		}
 		if (state.getValue(BLOCKSTATE) == 10) {
-			return box(7, -1, 7, 11, 18, 11);
+			return box(6, -1, 6, 10, 21, 10);
 		}
-		return Shapes.or(box(5, 8.75, 5.5, 11, 9.25, 11.5), box(7, -1, 7, 9, 8.65, 9));
+		return Shapes.or(box(6, -1, 6, 10, 9, 10), box(5, 6.5, 7, 7, 8.5, 9));
 	}
 
 	@Override
@@ -149,7 +143,6 @@ public class FarmersSunflowerBlock extends Block implements EntityBlock, Bonemea
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 20);
-		FarmersSunflowerPriDobavlieniiBlokaProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), blockstate);
 	}
 
 	@Override

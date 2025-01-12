@@ -105,7 +105,7 @@ public class VortexModVariables {
 
 	public static class PlayerVariables {
 		public boolean DenseFog = false;
-		public double DenseFogDistance = 40.0;
+		public double DenseFogDistance = 160.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
