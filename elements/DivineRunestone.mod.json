@@ -30,9 +30,8 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§7§o8 level"
-      ],
-      "name": "DivineRunestoneDopolnitielnaiaInformatsiia"
+        "§7§o8 Level"
+      ]
     },
     "glowCondition": {
       "fixedValue": true
@@ -56,6 +55,10 @@
     "isAlwaysEdible": false,
     "animation": "none",
     "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
     "musicDiscLengthInTicks": 0,
     "musicDiscAnalogOutput": 0
   }

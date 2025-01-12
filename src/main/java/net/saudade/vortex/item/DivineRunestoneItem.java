@@ -1,8 +1,6 @@
 
 package net.saudade.vortex.item;
 
-import net.saudade.vortex.procedures.DivineRunestoneDopolnitielnaiaInformatsiiaProcedure;
-
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -11,7 +9,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
@@ -30,12 +27,6 @@ public class DivineRunestoneItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, level, list, flag);
-		Entity entity = itemstack.getEntityRepresentation();
-		String hoverText = DivineRunestoneDopolnitielnaiaInformatsiiaProcedure.execute();
-		if (hoverText != null) {
-			for (String line : hoverText.split("\n")) {
-				list.add(Component.literal(line));
-			}
-		}
+		list.add(Component.translatable("item.vortex.divine_runestone.description_0"));
 	}
 }

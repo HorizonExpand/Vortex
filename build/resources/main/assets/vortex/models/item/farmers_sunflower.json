@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "vortex:item/farmers_sunflower_seed"
-  },
-  "render_type": "translucent"
-}

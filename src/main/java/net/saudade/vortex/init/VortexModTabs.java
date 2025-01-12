@@ -70,6 +70,26 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.OZGLOZ_MIXTURE.get());
 				tabData.accept(VortexModBlocks.THE_BEACON_OF_DESTINY.get().asItem());
 				tabData.accept(VortexModItems.GHOSTLY_SHARD.get());
+				tabData.accept(VortexModItems.WILL_OF_THE_CHAOSBORN.get());
+				tabData.accept(VortexModItems.TEAR_OF_THE_ALLFATHERS.get());
+				tabData.accept(VortexModItems.ATOMIC_SUSPENSION.get());
+				tabData.accept(VortexModItems.ESSENCE_OF_CATACLYSM.get());
+				tabData.accept(VortexModItems.DYING_BREATH_OF_FORGOTTEN_TIMES.get());
+				tabData.accept(VortexModItems.HEAT_OF_THE_SCORCHING_DESERT.get());
+				tabData.accept(VortexModItems.HUM_OF_UNDERWATER_DEPTHS.get());
+				tabData.accept(VortexModItems.WHISPER_OF_THE_ALLURING_ABYSS.get());
+				tabData.accept(VortexModItems.CLANK_OF_TEMPERED_METALS.get());
+				tabData.accept(VortexModItems.HOWL_OF_MERCILESS_FLAME.get());
+				tabData.accept(VortexModItems.CLAMOR_OF_DEATHS_EMISSARIES.get());
+				tabData.accept(VortexModItems.CACKLE_OF_VEXING_BLIGHT.get());
+				tabData.accept(VortexModItems.RIFT_OF_FORGOTTEN_CHAOS.get());
+				tabData.accept(VortexModItems.VISAGE_OF_DEPARTED_RULERS.get());
+				tabData.accept(VortexModItems.RAW_CHARGED_QUALADIUM.get());
+				tabData.accept(VortexModItems.RAW_GEMINIUM.get());
+				tabData.accept(VortexModItems.MATERIAL_ESSENCE.get());
+				tabData.accept(VortexModItems.CORE_OF_MATTER.get());
+				tabData.accept(VortexModItems.WHIRL_OF_EXISTENCE.get());
+				tabData.accept(VortexModItems.RESONATING_CRYSTAL_HEART.get());
 			}).withTabsBefore(VORTEX_FARMING_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> VORTEX_TABLETS_TAB = REGISTRY.register("vortex_tablets_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_tablets_tab")).icon(() -> new ItemStack(VortexModItems.TABLET_OF_STORM.get())).displayItems((parameters, tabData) -> {
@@ -114,5 +134,7 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.POWERFUL_RUNESTONE.get());
 				tabData.accept(VortexModItems.LEGENDARY_RUNESTONE.get());
 				tabData.accept(VortexModItems.DIVINE_RUNESTONE.get());
+				tabData.accept(VortexModItems.ULTIMATE_RUNESTONE.get());
+				tabData.accept(VortexModItems.INSANE_RUNESTONE.get());
 			}).withTabsBefore(VORTEX_ICONS_TAB.getId()).build());
 }

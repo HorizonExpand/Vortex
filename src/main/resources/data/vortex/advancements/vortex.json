@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "vortex:textures/screens/hrumers_green_cube.png",
+    "icon": {
+      "item": "vortex:farmers_sunflower"
+    },
+    "title": {
+      "translate": "advancements.vortex.title"
+    },
+    "description": {
+      "translate": "advancements.vortex.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vortex_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "parent": "vortex:custom/farmers_sunflower_stage1_sunset",
-  "textures": {
-    "all": "vortex:block/farmers_sunflower_stage1",
-    "particle": "vortex:block/farmers_sunflower_head",
-    "0": "vortex:block/farmers_sunflower_stage1"
-  },
-  "render_type": "cutout"
-}

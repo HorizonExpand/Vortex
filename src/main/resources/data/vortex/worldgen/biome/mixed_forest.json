@@ -135,6 +135,8 @@
       "minecraft:patch_tall_grass",
       "minecraft:patch_grass_forest"
     ],
-    []
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ]
 }

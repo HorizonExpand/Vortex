@@ -1,6 +1,8 @@
 
 package net.saudade.vortex.item;
 
+import net.saudade.vortex.procedures.BottleWithOilPriZaviershieniiIspolzovaniiaProcedure;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
@@ -25,6 +27,10 @@ public class MayoItem extends Item {
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = new ItemStack(Items.GLASS_BOTTLE);
 		super.finishUsingItem(itemstack, world, entity);
+		double x = entity.getX();
+		double y = entity.getY();
+		double z = entity.getZ();
+		BottleWithOilPriZaviershieniiIspolzovaniiaProcedure.execute(entity);
 		if (itemstack.isEmpty()) {
 			return retval;
 		} else {

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "vortex:preserves_jar"
+    },
+    "title": {
+      "translate": "advancements.grandmothers_technology.title"
+    },
+    "description": {
+      "translate": "advancements.grandmothers_technology.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "grandmothers_technology_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "vortex:vortex"
+}

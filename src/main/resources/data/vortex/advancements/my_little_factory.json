@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "vortex:oil_roll"
+    },
+    "title": {
+      "translate": "advancements.my_little_factory.title"
+    },
+    "description": {
+      "translate": "advancements.my_little_factory.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "my_little_factory_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "vortex:vortex"
+}

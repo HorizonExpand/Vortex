@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "vortex:calcite_jungle",
-  "features": "vortex:calcite_jungle_vegetation",
-  "step": "vegetal_decoration"
-}

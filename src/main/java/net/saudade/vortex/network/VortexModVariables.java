@@ -67,6 +67,7 @@ public class VortexModVariables {
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.DenseFog = original.DenseFog;
+			clone.DenseFogDistance = original.DenseFogDistance;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -104,6 +105,7 @@ public class VortexModVariables {
 
 	public static class PlayerVariables {
 		public boolean DenseFog = false;
+		public double DenseFogDistance = 40.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -113,12 +115,14 @@ public class VortexModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("DenseFog", DenseFog);
+			nbt.putDouble("DenseFogDistance", DenseFogDistance);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
 			DenseFog = nbt.getBoolean("DenseFog");
+			DenseFogDistance = nbt.getDouble("DenseFogDistance");
 		}
 	}
 
@@ -144,6 +148,7 @@ public class VortexModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.DenseFog = message.data.DenseFog;
+					variables.DenseFogDistance = message.data.DenseFogDistance;
 				}
 			});
 			context.setPacketHandled(true);
