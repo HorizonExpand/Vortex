@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "farmers_sunflower_stage2"
+        "1": "farmers_sunflower_stage2"
       },
       "name": "default"
     }
