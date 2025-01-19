@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/enchantress",
+  "textures": {
+    "all": "vortex:block/enchantress",
+    "particle": "vortex:block/enchantress",
+    "0": "vortex:block/enchantress"
+  },
+  "render_type": "cutout"
+}

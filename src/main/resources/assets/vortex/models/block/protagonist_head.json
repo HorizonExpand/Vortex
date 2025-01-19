@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/protagonist",
+  "textures": {
+    "all": "vortex:block/protagonist",
+    "particle": "vortex:block/protagonist",
+    "": "vortex:block/protagonist"
+  },
+  "render_type": "cutout"
+}

@@ -27,11 +27,13 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class RMCOnWaterWellProcedure {
+public class WaterWellActionProcedure {
 	@SubscribeEvent
 	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
 		if (event.getHand() != event.getEntity().getUsedItemHand())
@@ -82,6 +84,14 @@ public class RMCOnWaterWellProcedure {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.fill")), SoundSource.BLOCKS, 1, 1, false);
 						}
 					}
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("vortex:well_according_to_all_standards"));
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
+						}
+					}
 				});
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.GLASS_BOTTLE) {
 				VortexMod.queueServerWork(1, () -> {
@@ -97,7 +107,17 @@ public class RMCOnWaterWellProcedure {
 						}
 					}.checkGamemode(entity))) {
 						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = (PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER)).copy();
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
 					} else if (!(entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains((PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER))) : false)) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = (PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER)).copy();
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
 					}
 					if (entity instanceof LivingEntity _entity)
 						_entity.swing(InteractionHand.MAIN_HAND, true);
@@ -106,6 +126,14 @@ public class RMCOnWaterWellProcedure {
 							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")), SoundSource.BLOCKS, 1, 1);
 						} else {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")), SoundSource.BLOCKS, 1, 1, false);
+						}
+					}
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("vortex:well_according_to_all_standards"));
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
 						}
 					}
 				});

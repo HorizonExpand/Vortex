@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/light",
+  "textures": {
+    "all": "vortex:block/light",
+    "particle": "vortex:block/light",
+    "0": "vortex:block/light"
+  },
+  "render_type": "cutout"
+}

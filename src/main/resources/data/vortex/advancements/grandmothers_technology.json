@@ -22,5 +22,5 @@
   "rewards": {
     "experience": 3
   },
-  "parent": "vortex:vortex"
+  "parent": "vortex:my_little_factory"
 }

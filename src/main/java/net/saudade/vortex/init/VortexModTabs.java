@@ -101,8 +101,6 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.POWERFUL_RUNESTONE.get());
 				tabData.accept(VortexModItems.LEGENDARY_RUNESTONE.get());
 				tabData.accept(VortexModItems.DIVINE_RUNESTONE.get());
-				tabData.accept(VortexModItems.ULTIMATE_RUNESTONE.get());
-				tabData.accept(VortexModItems.INSANE_RUNESTONE.get());
 			}).withTabsBefore(VORTEX_ITEMS_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> VORTEX_TABLETS_TAB = REGISTRY.register("vortex_tablets_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_tablets_tab")).icon(() -> new ItemStack(VortexModItems.TABLET_OF_STORM.get())).displayItems((parameters, tabData) -> {
@@ -136,5 +134,13 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.LIGHT_BLUE_SCROLL_ICON.get());
 				tabData.accept(VortexModItems.AGILITY_OF_THE_LYNX.get());
 				tabData.accept(VortexModItems.SCROLL_OF_STRENGTH.get());
+				tabData.accept(VortexModItems.ULTIMATE_RUNESTONE.get());
+				tabData.accept(VortexModItems.INSANE_RUNESTONE.get());
+				tabData.accept(VortexModBlocks.BANDIT_HEAD.get().asItem());
+				tabData.accept(VortexModBlocks.ELDER_HEAD.get().asItem());
+				tabData.accept(VortexModBlocks.ENCHANTRESS_HEAD.get().asItem());
+				tabData.accept(VortexModBlocks.ENGINEER_HEAD.get().asItem());
+				tabData.accept(VortexModBlocks.LIGHT_HEAD.get().asItem());
+				tabData.accept(VortexModBlocks.PROTAGONIST_HEAD.get().asItem());
 			}).withTabsBefore(VORTEX_TABLETS_TAB.getId()).build());
 }

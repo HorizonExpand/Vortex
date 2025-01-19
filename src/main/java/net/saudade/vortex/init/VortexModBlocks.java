@@ -6,13 +6,19 @@ package net.saudade.vortex.init;
 
 import net.saudade.vortex.block.WaterWellBlock;
 import net.saudade.vortex.block.TheBeaconOfDestinyBlock;
+import net.saudade.vortex.block.ProtagonistHeadBlock;
 import net.saudade.vortex.block.PreservesJarBlock;
 import net.saudade.vortex.block.OilRollBlock;
 import net.saudade.vortex.block.MysticalWellBlock;
 import net.saudade.vortex.block.LiquidSolariteBlock;
 import net.saudade.vortex.block.LiquidMagicGoldBlock;
+import net.saudade.vortex.block.LightHeadBlock;
 import net.saudade.vortex.block.FarmersSunflowerBlock;
+import net.saudade.vortex.block.EngineerHeadBlock;
+import net.saudade.vortex.block.EnchantressHeadBlock;
+import net.saudade.vortex.block.ElderHeadBlock;
 import net.saudade.vortex.block.CrankBlock;
+import net.saudade.vortex.block.BanditHeadBlock;
 import net.saudade.vortex.VortexMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -32,6 +38,12 @@ public class VortexModBlocks {
 	public static final RegistryObject<Block> THE_BEACON_OF_DESTINY = REGISTRY.register("the_beacon_of_destiny", () -> new TheBeaconOfDestinyBlock());
 	public static final RegistryObject<Block> LIQUID_SOLARITE = REGISTRY.register("liquid_solarite", () -> new LiquidSolariteBlock());
 	public static final RegistryObject<Block> LIQUID_MAGIC_GOLD = REGISTRY.register("liquid_magic_gold", () -> new LiquidMagicGoldBlock());
+	public static final RegistryObject<Block> BANDIT_HEAD = REGISTRY.register("bandit_head", () -> new BanditHeadBlock());
+	public static final RegistryObject<Block> ELDER_HEAD = REGISTRY.register("elder_head", () -> new ElderHeadBlock());
+	public static final RegistryObject<Block> ENCHANTRESS_HEAD = REGISTRY.register("enchantress_head", () -> new EnchantressHeadBlock());
+	public static final RegistryObject<Block> ENGINEER_HEAD = REGISTRY.register("engineer_head", () -> new EngineerHeadBlock());
+	public static final RegistryObject<Block> LIGHT_HEAD = REGISTRY.register("light_head", () -> new LightHeadBlock());
+	public static final RegistryObject<Block> PROTAGONIST_HEAD = REGISTRY.register("protagonist_head", () -> new ProtagonistHeadBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

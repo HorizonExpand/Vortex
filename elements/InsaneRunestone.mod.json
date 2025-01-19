@@ -11,10 +11,10 @@
     "rarity": "EPIC",
     "creativeTabs": [
       {
-        "value": "CUSTOM:VortexRunestonesTab"
+        "value": "CUSTOM:VortexIconsTab"
       }
     ],
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -29,12 +29,10 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "§7§o10 Level"
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,

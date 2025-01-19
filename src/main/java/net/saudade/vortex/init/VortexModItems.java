@@ -224,6 +224,12 @@ public class VortexModItems {
 	public static final RegistryObject<Item> RESONATING_CRYSTAL_HEART = REGISTRY.register("resonating_crystal_heart", () -> new ResonatingCrystalHeartItem());
 	public static final RegistryObject<Item> ULTIMATE_RUNESTONE = REGISTRY.register("ultimate_runestone", () -> new UltimateRunestoneItem());
 	public static final RegistryObject<Item> INSANE_RUNESTONE = REGISTRY.register("insane_runestone", () -> new InsaneRunestoneItem());
+	public static final RegistryObject<Item> BANDIT_HEAD = block(VortexModBlocks.BANDIT_HEAD);
+	public static final RegistryObject<Item> ELDER_HEAD = block(VortexModBlocks.ELDER_HEAD);
+	public static final RegistryObject<Item> ENCHANTRESS_HEAD = block(VortexModBlocks.ENCHANTRESS_HEAD);
+	public static final RegistryObject<Item> ENGINEER_HEAD = block(VortexModBlocks.ENGINEER_HEAD);
+	public static final RegistryObject<Item> LIGHT_HEAD = block(VortexModBlocks.LIGHT_HEAD);
+	public static final RegistryObject<Item> PROTAGONIST_HEAD = block(VortexModBlocks.PROTAGONIST_HEAD);
 
 	// Start of user code block custom items
 	// End of user code block custom items

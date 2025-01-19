@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vortex:block/protagonist_head"
+    },
+    "facing=east": {
+      "model": "vortex:block/protagonist_head",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vortex:block/protagonist_head",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vortex:block/protagonist_head",
+      "y": 270
+    }
+  }
+}

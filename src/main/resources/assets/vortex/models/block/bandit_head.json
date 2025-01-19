@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/bandit",
+  "textures": {
+    "all": "vortex:block/bandit",
+    "particle": "vortex:block/bandit",
+    "0": "vortex:block/bandit"
+  },
+  "render_type": "cutout"
+}

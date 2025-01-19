@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/engineer",
+  "textures": {
+    "all": "vortex:block/engineer",
+    "particle": "vortex:block/engineer",
+    "1": "vortex:block/engineer"
+  },
+  "render_type": "cutout"
+}

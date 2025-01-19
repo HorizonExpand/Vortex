@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/elder",
+  "textures": {
+    "all": "vortex:block/elder",
+    "particle": "vortex:block/elder",
+    "0": "vortex:block/elder"
+  },
+  "render_type": "cutout"
+}

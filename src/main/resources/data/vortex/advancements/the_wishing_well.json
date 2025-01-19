@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "vortex:mystical_well"
+    },
+    "title": {
+      "translate": "advancements.the_wishing_well.title"
+    },
+    "description": {
+      "translate": "advancements.the_wishing_well.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_wishing_well_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "vortex:grandmothers_technology"
+}
