@@ -66,8 +66,10 @@ public class VortexModVariables {
 			event.getOriginal().revive();
 			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-			clone.DenseFog = original.DenseFog;
-			clone.DenseFogDistance = original.DenseFogDistance;
+			clone.WellInteractX = original.WellInteractX;
+			clone.WellInteractY = original.WellInteractY;
+			clone.WellInteractZ = original.WellInteractZ;
+			clone.GoesToTheWaterWellDepth = original.GoesToTheWaterWellDepth;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -104,8 +106,10 @@ public class VortexModVariables {
 	}
 
 	public static class PlayerVariables {
-		public boolean DenseFog = false;
-		public double DenseFogDistance = 160.0;
+		public double WellInteractX = 0;
+		public double WellInteractY = 64.0;
+		public double WellInteractZ = 0;
+		public boolean GoesToTheWaterWellDepth = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -114,15 +118,19 @@ public class VortexModVariables {
 
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
-			nbt.putBoolean("DenseFog", DenseFog);
-			nbt.putDouble("DenseFogDistance", DenseFogDistance);
+			nbt.putDouble("WellInteractX", WellInteractX);
+			nbt.putDouble("WellInteractY", WellInteractY);
+			nbt.putDouble("WellInteractZ", WellInteractZ);
+			nbt.putBoolean("GoesToTheWaterWellDepth", GoesToTheWaterWellDepth);
 			return nbt;
 		}
 
 		public void readNBT(Tag tag) {
 			CompoundTag nbt = (CompoundTag) tag;
-			DenseFog = nbt.getBoolean("DenseFog");
-			DenseFogDistance = nbt.getDouble("DenseFogDistance");
+			WellInteractX = nbt.getDouble("WellInteractX");
+			WellInteractY = nbt.getDouble("WellInteractY");
+			WellInteractZ = nbt.getDouble("WellInteractZ");
+			GoesToTheWaterWellDepth = nbt.getBoolean("GoesToTheWaterWellDepth");
 		}
 	}
 
@@ -147,8 +155,10 @@ public class VortexModVariables {
 			context.enqueueWork(() -> {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
-					variables.DenseFog = message.data.DenseFog;
-					variables.DenseFogDistance = message.data.DenseFogDistance;
+					variables.WellInteractX = message.data.WellInteractX;
+					variables.WellInteractY = message.data.WellInteractY;
+					variables.WellInteractZ = message.data.WellInteractZ;
+					variables.GoesToTheWaterWellDepth = message.data.GoesToTheWaterWellDepth;
 				}
 			});
 			context.setPacketHandled(true);

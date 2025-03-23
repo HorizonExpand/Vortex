@@ -10,6 +10,9 @@
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
+    "onHelmetTick": {
+      "name": "DefamedCrystalOutgrowthTick"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:VortexItemsTab"

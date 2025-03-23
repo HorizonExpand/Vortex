@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "vortex:casiwell",
     "vortex:mystical_well",
     "vortex:water_well"
   ]

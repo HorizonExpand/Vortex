@@ -4,6 +4,7 @@
  */
 package net.saudade.vortex.init;
 
+import net.saudade.vortex.client.renderer.ReposedGaiaRenderer;
 import net.saudade.vortex.client.renderer.MysticalCoinEntityRenderer;
 
 import net.minecraftforge.fml.common.Mod;
@@ -16,5 +17,6 @@ public class VortexModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(VortexModEntities.MYSTICAL_COIN_ENTITY.get(), MysticalCoinEntityRenderer::new);
+		event.registerEntityRenderer(VortexModEntities.REPOSED_GAIA.get(), ReposedGaiaRenderer::new);
 	}
 }

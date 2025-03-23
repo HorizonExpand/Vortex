@@ -2,9 +2,9 @@
   "_fv": 73,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "orcish_bottle",
-    "customModelName": "Normal",
+    "customModelName": "orcish_bottle:default",
     "customProperties": {},
     "states": [],
     "name": "Orcish Bottle",
@@ -53,6 +53,10 @@
     "isAlwaysEdible": false,
     "animation": "none",
     "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
     "musicDiscLengthInTicks": 0,
     "musicDiscAnalogOutput": 0
   }

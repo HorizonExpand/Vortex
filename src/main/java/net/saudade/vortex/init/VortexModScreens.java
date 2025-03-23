@@ -5,6 +5,7 @@
 package net.saudade.vortex.init;
 
 import net.saudade.vortex.client.gui.PreservesJarGUIScreen;
+import net.saudade.vortex.client.gui.CasiwellGUIScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +20,7 @@ public class VortexModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(VortexModMenus.PRESERVES_JAR_GUI.get(), PreservesJarGUIScreen::new);
+			MenuScreens.register(VortexModMenus.CASIWELL_GUI.get(), CasiwellGUIScreen::new);
 		});
 	}
 }

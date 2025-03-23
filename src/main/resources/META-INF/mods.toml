@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="vortex"
-version="0.0.23"
+version="0.0.32"
 displayName="Vortex"
 displayURL="https://discord.gg/sJayn3BYDh"
 credits="Hrumer, Samuelchik, Linnett"
@@ -22,6 +22,12 @@ description="\u00A7oNothing \u00A7k\u0412\u044B \u044D\u0442\u043E\u0433\u043E \
     side="BOTH"
 
 
+[[dependencies.vortex]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.vortex]]
     modId="geckolib"
     mandatory=false

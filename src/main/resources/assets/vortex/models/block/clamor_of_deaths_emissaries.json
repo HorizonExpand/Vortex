@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/clamor_of_deaths_emissaries",
+  "textures": {
+    "all": "vortex:block/clamor_of_deaths_emissaries",
+    "particle": "vortex:block/clamor_of_deaths_emissaries",
+    "2": "vortex:block/clamor_of_deaths_emissaries"
+  },
+  "render_type": "cutout"
+}

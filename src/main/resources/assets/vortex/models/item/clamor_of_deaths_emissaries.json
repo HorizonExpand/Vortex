@@ -1,6 +1,22 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "vortex:item/clamor_of_deaths_emissaries"
+  "parent": "vortex:block/clamor_of_deaths_emissaries",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
   }
 }

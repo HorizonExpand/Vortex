@@ -94,27 +94,27 @@ public class FarmersSunflowerBlock extends Block implements EntityBlock, Bonemea
 			return Shapes.or(box(5, 10, 6, 9, 13, 10), box(6, -1, 6, 10, 10, 10));
 		}
 		if (state.getValue(BLOCKSTATE) == 4) {
-			return box(6, -1, 6, 10, 21, 10);
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(5, 17, 1, 11, 27, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 5) {
-			return box(6, -1, 6, 10, 21, 10);
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(1, 21, 1, 15, 23, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 6) {
 			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(1, 21, 1, 15, 23, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 7) {
-			return box(6, -1, 6, 10, 21, 10);
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(1, 21, 1, 15, 23, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 8) {
-			return box(6, -1, 6, 10, 21, 10);
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(5, 17, 1, 11, 27, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 9) {
-			return box(6, -1, 6, 10, 21, 10);
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(5, 17, 1, 11, 27, 15));
 		}
 		if (state.getValue(BLOCKSTATE) == 10) {
-			return box(6, -1, 6, 10, 21, 10);
+			return Shapes.or(box(6, -1, 6, 10, 21, 10), box(5, 17, 1, 11, 27, 15));
 		}
-		return Shapes.or(box(6, -1, 6, 10, 9, 10), box(5, 6.5, 7, 7, 8.5, 9));
+		return box(6, -1, 6, 10, 9, 10);
 	}
 
 	@Override

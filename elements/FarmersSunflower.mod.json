@@ -31,15 +31,6 @@
         "My": 9.0,
         "Mz": 10.0,
         "subtract": false
-      },
-      {
-        "mx": 5.0,
-        "my": 6.5,
-        "mz": 7.0,
-        "Mx": 7.0,
-        "My": 8.5,
-        "Mz": 9.0,
-        "subtract": false
       }
     ],
     "customProperties": [],

@@ -67,10 +67,10 @@ public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarG
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font,
 
-				InventoryDescProcedure.execute(), 6, 70, -12829636, false);
+				InventoryDescProcedure.execute(), 6, 73, -12829636, false);
 		guiGraphics.drawString(this.font,
 
-				ContainerBlockDescProcedure.execute(world, x, y, z), 6, 7, -12829636, false);
+				ContainerBlockDescProcedure.execute(world, x, y, z), 6, 6, -12829636, false);
 	}
 
 	@Override

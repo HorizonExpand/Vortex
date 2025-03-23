@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "vortex:custom/orcish_bottle",
   "textures": {
-    "layer0": "vortex:item/orcish_bottle"
+    "2": "vortex:block/orcish_bottle",
+    "particle": "vortex:item/orcish_bottle"
   }
 }

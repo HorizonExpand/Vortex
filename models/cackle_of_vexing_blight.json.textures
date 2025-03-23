@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cackle_of_vexing_blight"
+      },
+      "name": "default"
+    }
+  }
+}

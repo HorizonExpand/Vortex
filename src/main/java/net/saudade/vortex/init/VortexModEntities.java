@@ -4,6 +4,7 @@
  */
 package net.saudade.vortex.init;
 
+import net.saudade.vortex.entity.ReposedGaiaEntity;
 import net.saudade.vortex.entity.MysticalCoinEntityEntity;
 import net.saudade.vortex.VortexMod;
 
@@ -26,6 +27,10 @@ public class VortexModEntities {
 			EntityType.Builder.<MysticalCoinEntityEntity>of(MysticalCoinEntityEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MysticalCoinEntityEntity::new)
 
 					.sized(0.3f, 0.1f));
+	public static final RegistryObject<EntityType<ReposedGaiaEntity>> REPOSED_GAIA = register("reposed_gaia",
+			EntityType.Builder.<ReposedGaiaEntity>of(ReposedGaiaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ReposedGaiaEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -37,11 +42,13 @@ public class VortexModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			MysticalCoinEntityEntity.init();
+			ReposedGaiaEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MYSTICAL_COIN_ENTITY.get(), MysticalCoinEntityEntity.createAttributes().build());
+		event.put(REPOSED_GAIA.get(), ReposedGaiaEntity.createAttributes().build());
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "vortex:displaysettings/trader.item",
+  "textures": {
+    "particle": "vortex:block/trader"
+  }
+}

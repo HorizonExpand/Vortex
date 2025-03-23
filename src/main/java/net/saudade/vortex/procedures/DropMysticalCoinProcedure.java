@@ -12,11 +12,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GameType;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -24,11 +27,8 @@ import net.minecraft.world.entity.TamableAnimal;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.util.RandomSource;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
@@ -78,15 +78,16 @@ public class DropMysticalCoinProcedure {
 					((Level) world).playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.trident.return")), SoundSource.PLAYERS, 1, 1);
 			});
 			VortexMod.queueServerWork(40, () -> {
-				if (world instanceof ServerLevel _serverLevel) {
-					ItemEntity _itemEntity = (ItemEntity) EntityType.ITEM.create(_serverLevel);
-					if (_itemEntity != null) {
-						Entity entityinstance = _itemEntity;
-						_itemEntity.setItem(new ItemStack((ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(new ResourceLocation("vortex:mystical_well_reward"))).getRandomElement(RandomSource.create()).orElseGet(() -> Items.AIR))));
-						_itemEntity.setPickUpDelay(10);
-						entityinstance.setPos((x + 0.5), (y + 0.2), (z + 0.5));
-						entityinstance.push(0, 0.4, 0);
-						_serverLevel.addFreshEntity(entityinstance);
+				if (!world.isClientSide() && world.getServer() != null) {
+					BlockPos _bpLootTblWorld = BlockPos.containing(x, y, z);
+					for (ItemStack itemstackiterator : world.getServer().getLootData().getLootTable(new ResourceLocation("vortex:gameplay/mystical_well_reward"))
+							.getRandomItems(new LootParams.Builder((ServerLevel) world).withParameter(LootContextParams.ORIGIN, Vec3.atCenterOf(_bpLootTblWorld)).withParameter(LootContextParams.BLOCK_STATE, world.getBlockState(_bpLootTblWorld))
+									.withOptionalParameter(LootContextParams.BLOCK_ENTITY, world.getBlockEntity(_bpLootTblWorld)).create(LootContextParamSets.EMPTY))) {
+						if (world instanceof ServerLevel _level) {
+							ItemEntity entityToSpawn = new ItemEntity(_level, (x + 0.5), (y + 0.2), (z + 0.5), itemstackiterator);
+							entityToSpawn.setPickUpDelay(10);
+							_level.addFreshEntity(entityToSpawn);
+						}
 					}
 				}
 			});

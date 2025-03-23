@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vortex:block/clamor_of_deaths_emissaries"
+    },
+    "facing=east": {
+      "model": "vortex:block/clamor_of_deaths_emissaries",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vortex:block/clamor_of_deaths_emissaries",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vortex:block/clamor_of_deaths_emissaries",
+      "y": 270
+    }
+  }
+}

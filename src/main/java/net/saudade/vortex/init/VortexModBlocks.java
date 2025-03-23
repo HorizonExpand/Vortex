@@ -5,9 +5,11 @@
 package net.saudade.vortex.init;
 
 import net.saudade.vortex.block.WaterWellBlock;
+import net.saudade.vortex.block.TraderHeadBlock;
 import net.saudade.vortex.block.TheBeaconOfDestinyBlock;
 import net.saudade.vortex.block.ProtagonistHeadBlock;
 import net.saudade.vortex.block.PreservesJarBlock;
+import net.saudade.vortex.block.OrcishSkullBlock;
 import net.saudade.vortex.block.OilRollBlock;
 import net.saudade.vortex.block.MysticalWellBlock;
 import net.saudade.vortex.block.LiquidSolariteBlock;
@@ -18,6 +20,9 @@ import net.saudade.vortex.block.EngineerHeadBlock;
 import net.saudade.vortex.block.EnchantressHeadBlock;
 import net.saudade.vortex.block.ElderHeadBlock;
 import net.saudade.vortex.block.CrankBlock;
+import net.saudade.vortex.block.ClamorOfDeathsEmissariesBlock;
+import net.saudade.vortex.block.CasiwellBlock;
+import net.saudade.vortex.block.CackleOfVexingBlightBlock;
 import net.saudade.vortex.block.BanditHeadBlock;
 import net.saudade.vortex.VortexMod;
 
@@ -44,6 +49,11 @@ public class VortexModBlocks {
 	public static final RegistryObject<Block> ENGINEER_HEAD = REGISTRY.register("engineer_head", () -> new EngineerHeadBlock());
 	public static final RegistryObject<Block> LIGHT_HEAD = REGISTRY.register("light_head", () -> new LightHeadBlock());
 	public static final RegistryObject<Block> PROTAGONIST_HEAD = REGISTRY.register("protagonist_head", () -> new ProtagonistHeadBlock());
+	public static final RegistryObject<Block> TRADER_HEAD = REGISTRY.register("trader_head", () -> new TraderHeadBlock());
+	public static final RegistryObject<Block> CASIWELL = REGISTRY.register("casiwell", () -> new CasiwellBlock());
+	public static final RegistryObject<Block> CLAMOR_OF_DEATHS_EMISSARIES = REGISTRY.register("clamor_of_deaths_emissaries", () -> new ClamorOfDeathsEmissariesBlock());
+	public static final RegistryObject<Block> CACKLE_OF_VEXING_BLIGHT = REGISTRY.register("cackle_of_vexing_blight", () -> new CackleOfVexingBlightBlock());
+	public static final RegistryObject<Block> ORCISH_SKULL = REGISTRY.register("orcish_skull", () -> new OrcishSkullBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

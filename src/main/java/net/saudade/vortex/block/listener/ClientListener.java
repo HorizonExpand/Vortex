@@ -1,6 +1,7 @@
 package net.saudade.vortex.block.listener;
 
 import net.saudade.vortex.init.VortexModBlockEntities;
+import net.saudade.vortex.block.renderer.TraderHeadTileRenderer;
 import net.saudade.vortex.block.renderer.CrankTileRenderer;
 import net.saudade.vortex.VortexMod;
 
@@ -16,5 +17,6 @@ public class ClientListener {
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(VortexModBlockEntities.CRANK.get(), context -> new CrankTileRenderer());
+		event.registerBlockEntityRenderer(VortexModBlockEntities.TRADER_HEAD.get(), context -> new TraderHeadTileRenderer());
 	}
 }

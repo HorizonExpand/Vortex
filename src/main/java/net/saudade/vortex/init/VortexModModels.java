@@ -4,6 +4,7 @@
  */
 package net.saudade.vortex.init;
 
+import net.saudade.vortex.client.model.Modelorcish_quiver;
 import net.saudade.vortex.client.model.Modeldefamed_crystal_outgrowth;
 
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +16,7 @@ import net.minecraftforge.api.distmarker.Dist;
 public class VortexModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelorcish_quiver.LAYER_LOCATION, Modelorcish_quiver::createBodyLayer);
 		event.registerLayerDefinition(Modeldefamed_crystal_outgrowth.LAYER_LOCATION, Modeldefamed_crystal_outgrowth::createBodyLayer);
 	}
 }

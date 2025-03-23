@@ -1,8 +1,9 @@
 {
-  "parent": "block/cube_all",
+  "parent": "vortex:custom/beacon_of_destiny",
   "textures": {
     "all": "vortex:block/beacon_of_destiny",
-    "particle": "vortex:block/beacon_of_destiny"
+    "particle": "vortex:block/beacon_of_destiny",
+    "0": "vortex:block/beacon_of_destiny"
   },
   "render_type": "solid"
 }

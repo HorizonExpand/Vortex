@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/cackle_of_vexing_blight",
+  "textures": {
+    "all": "vortex:block/cackle_of_vexing_blight",
+    "particle": "vortex:block/cackle_of_vexing_blight",
+    "0": "vortex:block/cackle_of_vexing_blight"
+  },
+  "render_type": "solid"
+}

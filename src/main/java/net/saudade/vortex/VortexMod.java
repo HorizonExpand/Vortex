@@ -3,14 +3,13 @@ package net.saudade.vortex;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.saudade.vortex.world.features.StructureFeature;
+import net.saudade.vortex.loot.MysticalWellReward;
 import net.saudade.vortex.init.VortexModTabs;
 import net.saudade.vortex.init.VortexModSounds;
 import net.saudade.vortex.init.VortexModMenus;
 import net.saudade.vortex.init.VortexModItems;
 import net.saudade.vortex.init.VortexModFluids;
 import net.saudade.vortex.init.VortexModFluidTypes;
-import net.saudade.vortex.init.VortexModFeatures;
 import net.saudade.vortex.init.VortexModEntities;
 import net.saudade.vortex.init.VortexModBlocks;
 import net.saudade.vortex.init.VortexModBlockEntities;
@@ -45,6 +44,7 @@ public class VortexMod {
 
 	public VortexMod() {
 		// Start of user code block mod constructor
+		MinecraftForge.EVENT_BUS.register(new MysticalWellReward());
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -53,15 +53,10 @@ public class VortexMod {
 		VortexModBlockEntities.REGISTRY.register(bus);
 		VortexModItems.REGISTRY.register(bus);
 		VortexModEntities.REGISTRY.register(bus);
-
 		VortexModTabs.REGISTRY.register(bus);
-		VortexModFeatures.REGISTRY.register(bus);
-		StructureFeature.REGISTRY.register(bus);
-
 		VortexModMenus.REGISTRY.register(bus);
 		VortexModFluids.REGISTRY.register(bus);
 		VortexModFluidTypes.REGISTRY.register(bus);
-
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

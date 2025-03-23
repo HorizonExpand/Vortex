@@ -2,6 +2,7 @@
 package net.saudade.vortex.block;
 
 import net.saudade.vortex.procedures.WaterWellUsloviieRazmieshchieniiaBlokaProcedure;
+import net.saudade.vortex.procedures.WaterWellHitboxWithPlayerProcedure;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
@@ -16,8 +17,10 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -65,5 +68,11 @@ public class WaterWellBlock extends Block {
 	@Override
 	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return BlockPathTypes.BLOCKED;
+	}
+
+	@Override
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
+		super.entityInside(blockstate, world, pos, entity);
+		WaterWellHitboxWithPlayerProcedure.execute(pos.getX(), pos.getY(), pos.getZ(), entity);
 	}
 }

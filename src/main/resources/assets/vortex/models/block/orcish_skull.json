@@ -1,0 +1,9 @@
+{
+  "parent": "vortex:custom/orcish_skull",
+  "textures": {
+    "all": "vortex:block/orcish_skull",
+    "particle": "vortex:block/orcish_skull",
+    "2": "vortex:block/orcish_skull"
+  },
+  "render_type": "cutout"
+}

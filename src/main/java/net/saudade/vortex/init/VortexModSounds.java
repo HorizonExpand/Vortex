@@ -16,4 +16,5 @@ import net.minecraft.resources.ResourceLocation;
 public class VortexModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, VortexMod.MODID);
 	public static final RegistryObject<SoundEvent> CRANK = REGISTRY.register("crank", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("vortex", "crank")));
+	public static final RegistryObject<SoundEvent> CASINO_OPEN = REGISTRY.register("casino_open", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("vortex", "casino_open")));
 }

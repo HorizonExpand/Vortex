@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "beacon_of_destiny"
+      },
+      "name": "default"
+    }
+  }
+}
