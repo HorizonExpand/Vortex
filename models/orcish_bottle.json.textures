@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "2": "orcish_bottle"
+        "0": "orcish_bottle"
       },
       "name": "default"
     }

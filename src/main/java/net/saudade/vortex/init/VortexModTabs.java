@@ -30,7 +30,6 @@ public class VortexModTabs {
 				tabData.accept(VortexModBlocks.PRESERVES_JAR.get().asItem());
 				tabData.accept(VortexModBlocks.WATER_WELL.get().asItem());
 				tabData.accept(VortexModBlocks.MYSTICAL_WELL.get().asItem());
-				tabData.accept(VortexModBlocks.CASIWELL.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> VORTEX_ITEMS_TAB = REGISTRY.register("vortex_items_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_items_tab")).icon(() -> new ItemStack(VortexModItems.MYSTICAL_COIN.get())).displayItems((parameters, tabData) -> {

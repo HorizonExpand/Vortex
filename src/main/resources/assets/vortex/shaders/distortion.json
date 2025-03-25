@@ -1,0 +1,21 @@
+{
+    "targets": [
+        "swap"
+    ],
+    "passes": [
+        {
+            "name": "distortion",
+            "intarget": "minecraft:main",
+            "outtarget": "swap",
+            "uniforms": {
+                "distortionStrength": 0.1,
+                "greenTint": 0.3
+            }
+        },
+        {
+            "name": "blit",
+            "intarget": "swap",
+            "outtarget": "minecraft:main"
+        }
+    ]
+}

@@ -23,14 +23,5 @@
         "stream": false
       }
     ]
-  },
-  "casino_open": {
-    "subtitle": "subtitles.casino_open",
-    "sounds": [
-      {
-        "name": "vortex:open",
-        "stream": false
-      }
-    ]
   }
 }

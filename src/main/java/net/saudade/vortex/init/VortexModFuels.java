@@ -19,5 +19,7 @@ public class VortexModFuels {
 			event.setBurnTime(50);
 		else if (itemstack.getItem() == VortexModItems.ESSENCE_OF_MELTING.get())
 			event.setBurnTime(1600);
+		else if (itemstack.getItem() == VortexModItems.ESSENCE_OF_MELTING.get())
+			event.setBurnTime(1600);
 	}
 }

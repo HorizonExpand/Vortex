@@ -9,7 +9,6 @@ import net.saudade.vortex.block.entity.PreservesJarBlockEntity;
 import net.saudade.vortex.block.entity.OilRollBlockEntity;
 import net.saudade.vortex.block.entity.FarmersSunflowerBlockEntity;
 import net.saudade.vortex.block.entity.CrankTileEntity;
-import net.saudade.vortex.block.entity.CasiwellBlockEntity;
 import net.saudade.vortex.VortexMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -26,7 +25,6 @@ public class VortexModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> OIL_ROLL = register("oil_roll", VortexModBlocks.OIL_ROLL, OilRollBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PRESERVES_JAR = register("preserves_jar", VortexModBlocks.PRESERVES_JAR, PreservesJarBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<TraderHeadTileEntity>> TRADER_HEAD = REGISTRY.register("trader_head", () -> BlockEntityType.Builder.of(TraderHeadTileEntity::new, VortexModBlocks.TRADER_HEAD.get()).build(null));
-	public static final RegistryObject<BlockEntityType<?>> CASIWELL = register("casiwell", VortexModBlocks.CASIWELL, CasiwellBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
