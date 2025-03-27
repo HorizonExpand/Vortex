@@ -11,11 +11,11 @@ void main() {
     
     float strength = 0.02;
     float freq = 20.0;
-    float phase = sin(uv.x * 10.0 + uv.y * 10.0);
+    float anim = sin(gl_FragCoord.x * 0.03 + gl_FragCoord.y * 0.03) * 0.5 + 0.5;
     vec2 distortion = vec2(
-        sin(uv.y * freq + phase) * strength,
-        sin(uv.x * freq + phase) * strength
-    );
+        sin(uv.y * freq + anim),
+        sin(uv.x * freq + anim)
+    ) * strength;
     
     vec2 distortedUV = uv + distortion;
     distortedUV = clamp(distortedUV, 0.0, 1.0);

@@ -31,7 +31,7 @@
                 { "name": "InScale",  "values": [ 1.0, 1.0 ] },
                 { "name": "InOffset", "values": [ 0.0, 0.0 ] },
                 { "name": "Scissor",  "values": [ 0.03, 0.03, 0.97, 0.97 ] },
-                { "name": "Vignette", "values": [ 0.08, 0.08, 0.92, 0.92 ] }
+                { "name": "Vignette", "values": [ 0.09, 0.09, 0.91, 0.91 ] }
             ]
         },
         {
