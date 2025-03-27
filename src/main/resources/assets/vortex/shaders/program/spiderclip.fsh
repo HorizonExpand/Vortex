@@ -6,7 +6,6 @@ uniform sampler2D BlurSampler;
 in vec2 texCoord;
 in vec2 scaledCoord;
 
-uniform vec2 InSize;
 uniform vec4 Scissor;
 uniform vec4 Vignette;
 

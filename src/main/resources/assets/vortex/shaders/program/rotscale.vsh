@@ -3,13 +3,11 @@
 in vec4 Position;
 
 uniform mat4 ProjMat;
-uniform vec2 InSize;
 uniform vec2 OutSize;
 
 uniform vec2 InScale;
 uniform vec2 InOffset;
 uniform float InRotation;
-uniform float Time;
 
 out vec2 texCoord;
 out vec2 scaledCoord;
