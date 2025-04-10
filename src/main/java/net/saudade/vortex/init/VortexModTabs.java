@@ -95,6 +95,12 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.ENERGY_ROCK.get());
 				tabData.accept(VortexModItems.ENERIUM_ROCK.get());
 				tabData.accept(VortexModBlocks.ORCISH_SKULL.get().asItem());
+				tabData.accept(VortexModItems.MUSIC_DISC_AESTRAS.get());
+				tabData.accept(VortexModItems.MUSIC_DISC_CAVES.get());
+				tabData.accept(VortexModItems.MUSIC_DISC_STILL_DRIVING.get());
+				tabData.accept(VortexModItems.MUSIC_DISC_TECHNO_MOUNTAIN.get());
+				tabData.accept(VortexModItems.MUSIC_DISC_TENSION.get());
+				tabData.accept(VortexModItems.MUSIC_DISC_TURN.get());
 			}).withTabsBefore(VORTEX_FARMING_TAB.getId()).build());
 	public static final RegistryObject<CreativeModeTab> VORTEX_RUNESTONES_TAB = REGISTRY.register("vortex_runestones_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.vortex.vortex_runestones_tab")).icon(() -> new ItemStack(VortexModItems.DIVINE_RUNESTONE.get())).displayItems((parameters, tabData) -> {
@@ -129,6 +135,7 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.ULTIMATE_RUNESTONE.get());
 				tabData.accept(VortexModItems.INSANE_RUNESTONE.get());
 				tabData.accept(VortexModItems.BELL.get());
+				tabData.accept(VortexModItems.HONEY_COMB_ICON.get());
 				tabData.accept(VortexModBlocks.BANDIT_HEAD.get().asItem());
 				tabData.accept(VortexModBlocks.ELDER_HEAD.get().asItem());
 				tabData.accept(VortexModBlocks.ENCHANTRESS_HEAD.get().asItem());

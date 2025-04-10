@@ -11,7 +11,9 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.client.Minecraft;
 
 import java.util.List;
@@ -21,6 +23,7 @@ public class OrcishBottleActionProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
+		double rand = 0;
 		{
 			final Vec3 _center = new Vec3(x, y, z);
 			List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(6 / 2d), e -> true).stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).toList();
@@ -52,6 +55,18 @@ public class OrcishBottleActionProcedure {
 				if (_ist.hurt(1, RandomSource.create(), null)) {
 					_ist.shrink(1);
 					_ist.setDamageValue(0);
+				}
+			}
+		}
+		int horizontalRadiusSquare = (int) 6 - 1;
+		int verticalRadiusSquare = (int) 6 - 1;
+		int yIterationsSquare = verticalRadiusSquare;
+		for (int i = -yIterationsSquare; i <= yIterationsSquare; i++) {
+			for (int xi = -horizontalRadiusSquare; xi <= horizontalRadiusSquare; xi++) {
+				for (int zi = -horizontalRadiusSquare; zi <= horizontalRadiusSquare; zi++) {
+					// Execute the desired statements within the square/cube
+					rand = Mth.nextDouble(RandomSource.create(), -0.3, 0.3);
+					world.addParticle(ParticleTypes.HAPPY_VILLAGER, (x + xi + rand), (y + i + rand), (z + zi + rand), rand, rand, rand);
 				}
 			}
 		}

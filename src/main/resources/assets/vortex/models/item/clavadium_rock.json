@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "vortex:item/rough_stony_mix"
+    "layer0": "vortex:item/clavadium_rock"
   }
 }

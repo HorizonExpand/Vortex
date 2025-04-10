@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "vortex:item/cursed_hand"
+    "layer0": "vortex:item/essence_of_earthquake"
   }
 }

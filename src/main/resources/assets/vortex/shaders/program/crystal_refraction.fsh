@@ -1,6 +1,7 @@
 #version 150
 
 uniform sampler2D DiffuseSampler;
+uniform float Time;
 
 in vec2 texCoord;
 
@@ -9,12 +10,13 @@ out vec4 fragColor;
 void main() {
     vec2 uv = texCoord;
     
-    float strength = 0.02;
-    float freq = 20.0;
-    float anim = sin(gl_FragCoord.x * 0.03 + gl_FragCoord.y * 0.03) * 0.5 + 0.5;
+    float strength = 0.01;
+    float freq = 2;
+    float animSpeed = 6.1;
+    float smoothTime = mod(Time * animSpeed, 19);
     vec2 distortion = vec2(
-        sin(uv.y * freq + anim),
-        sin(uv.x * freq + anim)
+        sin(uv.y * freq + smoothTime),
+        sin(uv.x * freq + smoothTime)
     ) * strength;
     
     vec2 distortedUV = uv + distortion;

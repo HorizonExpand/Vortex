@@ -5,9 +5,9 @@
     "achievementName": "Vortex",
     "achievementDescription": "Welcome to The World of Farms and Fields!",
     "achievementIcon": {
-      "value": "CUSTOM:FarmersSunflower"
+      "value": "CUSTOM:FarmersSunflowerHead"
     },
-    "background": "hrumers_green_cube.png",
+    "background": "aloe_bricks.png",
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": true,

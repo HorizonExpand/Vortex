@@ -23,5 +23,53 @@
         "stream": false
       }
     ]
+  },
+  "music_disc.aestras": {
+    "sounds": [
+      {
+        "name": "vortex:aestras",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.caves": {
+    "sounds": [
+      {
+        "name": "vortex:caves",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.still_driving": {
+    "sounds": [
+      {
+        "name": "vortex:still_driving",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.techno_mountain": {
+    "sounds": [
+      {
+        "name": "vortex:techno_mountain",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.tension": {
+    "sounds": [
+      {
+        "name": "vortex:tension",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.turn": {
+    "sounds": [
+      {
+        "name": "vortex:turn",
+        "stream": true
+      }
+    ]
   }
 }

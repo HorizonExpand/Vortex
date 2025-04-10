@@ -45,6 +45,12 @@ import net.saudade.vortex.item.OrcishArtifactItem;
 import net.saudade.vortex.item.NestIconItem;
 import net.saudade.vortex.item.MysticalCoinItem;
 import net.saudade.vortex.item.MysteriousManuscriptItem;
+import net.saudade.vortex.item.MusicDiscTurnItem;
+import net.saudade.vortex.item.MusicDiscTensionItem;
+import net.saudade.vortex.item.MusicDiscTechnoMountainItem;
+import net.saudade.vortex.item.MusicDiscStillDrivingItem;
+import net.saudade.vortex.item.MusicDiscCavesItem;
+import net.saudade.vortex.item.MusicDiscAestrasItem;
 import net.saudade.vortex.item.MayoItem;
 import net.saudade.vortex.item.MaterialEssenceItem;
 import net.saudade.vortex.item.LightBlueScrollIconItem;
@@ -55,6 +61,7 @@ import net.saudade.vortex.item.IngotOfSproutedSteelItem;
 import net.saudade.vortex.item.InfoIconItem;
 import net.saudade.vortex.item.HumOfUnderwaterDepthsItem;
 import net.saudade.vortex.item.HowlOfMercilessFlameItem;
+import net.saudade.vortex.item.HoneyCombIconItem;
 import net.saudade.vortex.item.HomeIconItem;
 import net.saudade.vortex.item.HexagonalManaStoneItem;
 import net.saudade.vortex.item.HeatOfTheScorchingDesertItem;
@@ -219,6 +226,13 @@ public class VortexModItems {
 	public static final RegistryObject<Item> CLAMOR_OF_DEATHS_EMISSARIES = block(VortexModBlocks.CLAMOR_OF_DEATHS_EMISSARIES);
 	public static final RegistryObject<Item> CACKLE_OF_VEXING_BLIGHT = block(VortexModBlocks.CACKLE_OF_VEXING_BLIGHT);
 	public static final RegistryObject<Item> ORCISH_SKULL = block(VortexModBlocks.ORCISH_SKULL);
+	public static final RegistryObject<Item> HONEY_COMB_ICON = REGISTRY.register("honey_comb_icon", () -> new HoneyCombIconItem());
+	public static final RegistryObject<Item> MUSIC_DISC_AESTRAS = REGISTRY.register("music_disc_aestras", () -> new MusicDiscAestrasItem());
+	public static final RegistryObject<Item> MUSIC_DISC_CAVES = REGISTRY.register("music_disc_caves", () -> new MusicDiscCavesItem());
+	public static final RegistryObject<Item> MUSIC_DISC_STILL_DRIVING = REGISTRY.register("music_disc_still_driving", () -> new MusicDiscStillDrivingItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TECHNO_MOUNTAIN = REGISTRY.register("music_disc_techno_mountain", () -> new MusicDiscTechnoMountainItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TENSION = REGISTRY.register("music_disc_tension", () -> new MusicDiscTensionItem());
+	public static final RegistryObject<Item> MUSIC_DISC_TURN = REGISTRY.register("music_disc_turn", () -> new MusicDiscTurnItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

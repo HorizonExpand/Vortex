@@ -8,7 +8,10 @@
         {
             "name": "vortex:crystal_refraction",
             "intarget": "minecraft:main",
-            "outtarget": "temp"
+            "outtarget": "temp",
+            "uniforms": [
+                { "name": "Time", "values": [ 0.0 ] }
+            ]
         },
         {
             "name": "color_convolve",
@@ -16,8 +19,8 @@
             "outtarget": "swap",
             "uniforms": [
                 { "name": "RedMatrix",   "values": [ 0.224, 0.440, 0.082 ] },
-                { "name": "GreenMatrix", "values": [ 0.43, 0.84, 0.16 ] },
-                { "name": "BlueMatrix",  "values": [ 0.35, 0.69, 0.12 ] }
+                { "name": "GreenMatrix", "values": [ 0.4, 0.8, 0.15 ] },
+                { "name": "BlueMatrix",  "values": [ 0.4, 0.73, 0.13 ] }
             ]
         },
         {
@@ -30,8 +33,8 @@
             "uniforms": [
                 { "name": "InScale",  "values": [ 1.0, 1.0 ] },
                 { "name": "InOffset", "values": [ 0.0, 0.0 ] },
-                { "name": "Scissor",  "values": [ 0.03, 0.03, 0.97, 0.97 ] },
-                { "name": "Vignette", "values": [ 0.09, 0.09, 0.91, 0.91 ] }
+                { "name": "Scissor",  "values": [ 0.05, 0.05, 0.95, 0.95 ] },
+                { "name": "Vignette", "values": [ 0.12, 0.12, 0.88, 0.88 ] }
             ]
         },
         {

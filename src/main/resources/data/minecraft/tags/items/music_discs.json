@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "vortex:music_disc_turn",
+    "vortex:music_disc_tension",
+    "vortex:music_disc_techno_mountain",
+    "vortex:music_disc_still_driving",
+    "vortex:music_disc_caves",
+    "vortex:music_disc_aestras"
+  ]
+}

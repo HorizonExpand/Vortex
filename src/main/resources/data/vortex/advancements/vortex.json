@@ -1,8 +1,8 @@
 {
   "display": {
-    "background": "vortex:textures/screens/hrumers_green_cube.png",
+    "background": "vortex:textures/screens/aloe_bricks.png",
     "icon": {
-      "item": "vortex:farmers_sunflower"
+      "item": "vortex:farmers_sunflower_head"
     },
     "title": {
       "translate": "advancements.vortex.title"

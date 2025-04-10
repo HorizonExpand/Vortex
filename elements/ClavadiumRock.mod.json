@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rough_stony_mix",
+    "texture": "clavadium_rock",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
@@ -32,7 +32,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": false
+      "fixedValue": true
     },
     "inventorySize": 9,
     "inventoryStackSize": 64,

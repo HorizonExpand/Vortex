@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "vortex:item/ozgloz_ingot"
+    "layer0": "vortex:item/enerium_rock"
   }
 }
