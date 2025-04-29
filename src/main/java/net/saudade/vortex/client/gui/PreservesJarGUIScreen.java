@@ -3,6 +3,7 @@ package net.saudade.vortex.client.gui;
 import net.saudade.vortex.world.inventory.PreservesJarGUIMenu;
 import net.saudade.vortex.procedures.InventoryDescProcedure;
 import net.saudade.vortex.procedures.ContainerBlockDescProcedure;
+import net.saudade.vortex.init.VortexModScreens.WidgetScreen;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -16,11 +17,12 @@ import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarGUIMenu> {
+public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarGUIMenu> implements WidgetScreen {
 	private final static HashMap<String, Object> guistate = PreservesJarGUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	private final static HashMap<String, String> textstate = new HashMap<>();
 
 	public PreservesJarGUIScreen(PreservesJarGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -52,6 +54,10 @@ public class PreservesJarGUIScreen extends AbstractContainerScreen<PreservesJarG
 		guiGraphics.blit(new ResourceLocation("vortex:textures/screens/glass_bottle_border.png"), this.leftPos + 124, this.topPos + 17, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
+	}
+
+	public HashMap<String, Object> getWidgets() {
+		return guistate;
 	}
 
 	@Override

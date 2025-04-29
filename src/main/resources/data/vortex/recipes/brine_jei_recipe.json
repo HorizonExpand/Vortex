@@ -1,0 +1,30 @@
+{
+  "type": "vortex:preserves_jar_jei_category",
+  "ingredients": [
+    {
+      "tag": "vortex:brinedly"
+    },
+    {
+      "tag": "vortex:brinedly"
+    },
+    {
+      "tag": "vortex:brinedly"
+    },
+    {
+      "tag": "vortex:brinedly"
+    },
+    {
+      "tag": "vortex:brinedly"
+    },
+    {
+      "tag": "vortex:brinedly"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "output": {
+    "id": "vortex:brine",
+    "count": 1
+  }
+}

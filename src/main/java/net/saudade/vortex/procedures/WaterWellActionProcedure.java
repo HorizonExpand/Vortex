@@ -25,6 +25,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
@@ -35,7 +36,6 @@ import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
 import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.Minecraft;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
@@ -60,103 +60,144 @@ public class WaterWellActionProcedure {
 		if (blockstate.getBlock() == VortexModBlocks.WATER_WELL.get()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BUCKET) {
 				VortexMod.queueServerWork(1, () -> {
-					if (!(new Object() {
+					if (!new Object() {
 						public boolean checkGamemode(Entity _ent) {
 							if (_ent instanceof ServerPlayer _serverPlayer) {
 								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-							} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
-								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 							}
 							return false;
 						}
-					}.checkGamemode(entity))) {
+					}.checkGamemode(entity)) {
 						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(Items.WATER_BUCKET).copy();
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (!(entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(Items.WATER_BUCKET)) : false)) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(Items.WATER_BUCKET).copy();
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
+					}
+					if (entity instanceof Player _player) {
+						ItemStack _setstack = new ItemStack(Items.WATER_BUCKET).copy();
+						_setstack.setCount(1);
+						ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 					}
 					if (entity instanceof LivingEntity _entity)
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (world instanceof Level _level) {
-						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.fill")), SoundSource.BLOCKS, 1, 1);
+						ResourceLocation soundLocation = new ResourceLocation("minecraft", "item.bucket.fill");
+						SoundEvent soundEvent = ForgeRegistries.SOUND_EVENTS.getValue(soundLocation);
+						if (soundEvent != null) {
+							if (!_level.isClientSide()) {
+								_level.playSound(null, BlockPos.containing(x, y, z), soundEvent, SoundSource.BLOCKS, 1, 1);
+							} else {
+								_level.playLocalSound(x, y, z, soundEvent, SoundSource.BLOCKS, 1, 1, false);
+							}
 						} else {
-							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.fill")), SoundSource.BLOCKS, 1, 1, false);
+							VortexMod.LOGGER.warn("Sound event {} not found, skipping sound playback.", soundLocation);
 						}
 					}
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("vortex:well_according_to_all_standards"));
-						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-						if (!_ap.isDone()) {
-							for (String criteria : _ap.getRemainingCriteria())
-								_player.getAdvancements().award(_adv, criteria);
+						if (_adv != null) {
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
+							}
+						}
+					}
+				});
+			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ForgeRegistries.ITEMS.getValue(new ResourceLocation("ceramicbucket:ceramic_bucket"))
+					&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getOrCreateTag().getCompound("Fluid").getString("FluidName").isEmpty()) {
+				VortexMod.queueServerWork(1, () -> {
+					if (!new Object() {
+						public boolean checkGamemode(Entity _ent) {
+							if (_ent instanceof ServerPlayer _serverPlayer) {
+								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
+							}
+							return false;
+						}
+					}.checkGamemode(entity)) {
+						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					}
+					if (entity instanceof Player _player) {
+						ItemStack _setstack = new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("ceramicbucket:ceramic_bucket")));
+						_setstack.setCount(1);
+						_setstack.getOrCreateTagElement("Fluid").putString("FluidName", "minecraft:water");
+						_setstack.getOrCreateTagElement("Fluid").putInt("Amount", 1000);
+						ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+					}
+					if (entity instanceof LivingEntity _entity)
+						_entity.swing(InteractionHand.MAIN_HAND, true);
+					if (world instanceof Level _level) {
+						ResourceLocation soundLocation = new ResourceLocation("minecraft", "item.bucket.fill");
+						SoundEvent soundEvent = ForgeRegistries.SOUND_EVENTS.getValue(soundLocation);
+						if (soundEvent != null) {
+							if (!_level.isClientSide()) {
+								_level.playSound(null, BlockPos.containing(x, y, z), soundEvent, SoundSource.BLOCKS, 1, 1);
+							} else {
+								_level.playLocalSound(x, y, z, soundEvent, SoundSource.BLOCKS, 1, 1, false);
+							}
+						} else {
+							VortexMod.LOGGER.warn("Sound event {} not found, skipping sound playback.", soundLocation);
+						}
+					}
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("vortex:well_according_to_all_standards"));
+						if (_adv != null) {
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
+							}
 						}
 					}
 				});
 			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.GLASS_BOTTLE) {
 				VortexMod.queueServerWork(1, () -> {
-					if (!(new Object() {
+					if (!new Object() {
 						public boolean checkGamemode(Entity _ent) {
 							if (_ent instanceof ServerPlayer _serverPlayer) {
 								return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-							} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
-								return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
-										&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 							}
 							return false;
 						}
-					}.checkGamemode(entity))) {
+					}.checkGamemode(entity)) {
 						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = (PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER)).copy();
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (!(entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains((PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER))) : false)) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = (PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER)).copy();
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
+					}
+					if (entity instanceof Player _player) {
+						ItemStack _setstack = PotionUtils.setPotion(Items.POTION.getDefaultInstance(), Potions.WATER).copy();
+						_setstack.setCount(1);
+						ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 					}
 					if (entity instanceof LivingEntity _entity)
 						_entity.swing(InteractionHand.MAIN_HAND, true);
 					if (world instanceof Level _level) {
-						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")), SoundSource.BLOCKS, 1, 1);
+						ResourceLocation soundLocation = new ResourceLocation("minecraft", "item.bottle.fill");
+						SoundEvent soundEvent = ForgeRegistries.SOUND_EVENTS.getValue(soundLocation);
+						if (soundEvent != null) {
+							if (!_level.isClientSide()) {
+								_level.playSound(null, BlockPos.containing(x, y, z), soundEvent, SoundSource.BLOCKS, 1, 1);
+							} else {
+								_level.playLocalSound(x, y, z, soundEvent, SoundSource.BLOCKS, 1, 1, false);
+							}
 						} else {
-							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.fill")), SoundSource.BLOCKS, 1, 1, false);
+							VortexMod.LOGGER.warn("Sound event {} not found, skipping sound playback.", soundLocation);
 						}
 					}
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("vortex:well_according_to_all_standards"));
-						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-						if (!_ap.isDone()) {
-							for (String criteria : _ap.getRemainingCriteria())
-								_player.getAdvancements().award(_adv, criteria);
+						if (_adv != null) {
+							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+							if (!_ap.isDone()) {
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
+							}
 						}
 					}
 				});
 			} else if ((entity.level().dimension()) == ResourceKey.create(Registries.DIMENSION, new ResourceLocation("vortex:water_well_depth"))) {
-				{
-					Entity _ent = entity;
-					_ent.teleportTo(((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractX),
+				entity.teleportTo(((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractX),
+						((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractY),
+						((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractZ));
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.connection.teleport(((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractX),
 							((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractY),
-							((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractZ));
-					if (_ent instanceof ServerPlayer _serverPlayer)
-						_serverPlayer.connection.teleport(((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractX),
-								((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractY),
-								((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractZ), _ent.getYRot(), _ent.getXRot());
-				}
+							((entity.getCapability(VortexModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new VortexModVariables.PlayerVariables())).WellInteractZ), entity.getYRot(), entity.getXRot());
 				if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 					ResourceKey<Level> destinationType = Level.OVERWORLD;
 					if (_player.level().dimension() == destinationType)

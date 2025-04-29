@@ -1,0 +1,69 @@
+{
+  "_fv": 77,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "preserves_jar_gui_jei.png",
+    "width": 175,
+    "height": 79,
+    "icon": {
+      "value": "CUSTOM:PreservesJar"
+    },
+    "craftingtables": [
+      {
+        "value": "CUSTOM:PreservesJar"
+      }
+    ],
+    "enableCraftingtable": true,
+    "title": "Preserves Jar",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 34,
+        "y": 0,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 52,
+        "y": 17,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 70,
+        "y": 17,
+        "slotid": 2
+      },
+      {
+        "type": "INPUT",
+        "x": 34,
+        "y": 35,
+        "slotid": 3
+      },
+      {
+        "type": "INPUT",
+        "x": 52,
+        "y": 35,
+        "slotid": 4
+      },
+      {
+        "type": "INPUT",
+        "x": 70,
+        "y": 35,
+        "slotid": 5
+      },
+      {
+        "type": "INPUT",
+        "x": 124,
+        "y": 17,
+        "slotid": 6
+      },
+      {
+        "type": "OUTPUT",
+        "x": 124,
+        "y": 53,
+        "slotid": 0
+      }
+    ]
+  }
+}

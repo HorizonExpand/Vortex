@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 77,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,11 +9,7 @@
     "states": [],
     "name": "Codex of Truth",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:VortexItemsTab"
-      }
-    ],
+    "creativeTabs": [],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -30,7 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Orbs that Regeneration Health will begin to Fall from Mobs"
+        "§7§oOrbs that Regeneration Health will begin to Fall from Mobs"
       ]
     },
     "glowCondition": {

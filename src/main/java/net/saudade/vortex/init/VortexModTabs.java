@@ -38,15 +38,9 @@ public class VortexModTabs {
 				tabData.accept(VortexModItems.MYSTICAL_COIN.get());
 				tabData.accept(VortexModItems.ANCIENT_WRITINGS.get());
 				tabData.accept(VortexModItems.CARTOGRAPHERS_NOTES.get());
-				tabData.accept(VortexModItems.CODEX_OF_TRUTH.get());
 				tabData.accept(VortexModItems.MYSTERIOUS_MANUSCRIPT.get());
 				tabData.accept(VortexModItems.POWER_OF_THE_BUTTERFLY.get());
 				tabData.accept(VortexModItems.TRAVELERS_DIARY.get());
-				tabData.accept(VortexModItems.ENCHANTERS_CONTRACT.get());
-				tabData.accept(VortexModItems.WARRIORS_CONTRACT.get());
-				tabData.accept(VortexModItems.FARMERS_CONTRACT.get());
-				tabData.accept(VortexModItems.INNOVATORS_CONTRACT.get());
-				tabData.accept(VortexModItems.TRAVELERS_CONTRACT.get());
 				tabData.accept(VortexModItems.ORCISH_QUIVER.get());
 				tabData.accept(VortexModItems.ORCISH_MONOCLE.get());
 				tabData.accept(VortexModItems.ORCISH_ARTIFACT.get());

@@ -1,5 +1,5 @@
 {
-  "_fv": 73,
+  "_fv": 77,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -30,7 +30,7 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "Allows to Use JourneyMap Mod without Restrictions"
+        "§7§oAllows to Use JourneyMap Mod without Restrictions"
       ]
     },
     "glowCondition": {
