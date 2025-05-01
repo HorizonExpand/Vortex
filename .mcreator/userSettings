@@ -1,0 +1,15 @@
+{
+  "workspacePanelIconSize": "LARGE",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Vortex]",
+      "[, Vortex, Source (Gradle)]",
+      "[, Vortex, Source (Gradle), D:\\Games\\MCreator 2025.1\\MCreatorWorkspaces\\vortex\\src\\main\\java\\net]",
+      "[, Vortex, Source (Gradle), D:\\Games\\MCreator 2025.1\\MCreatorWorkspaces\\vortex\\src\\main\\java\\net, D:\\Games\\MCreator 2025.1\\MCreatorWorkspaces\\vortex\\src\\main\\java\\net\\saudade]",
+      "[, Vortex, Source (Gradle), D:\\Games\\MCreator 2025.1\\MCreatorWorkspaces\\vortex\\src\\main\\java\\net, D:\\Games\\MCreator 2025.1\\MCreatorWorkspaces\\vortex\\src\\main\\java\\net\\saudade, D:\\Games\\MCreator 2025.1\\MCreatorWorkspaces\\vortex\\src\\main\\java\\net\\saudade\\vortex]"
+    ]
+  }
+}
